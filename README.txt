@@ -23,3 +23,11 @@
 - 此版本不含會員、雲端同步、抽牌或 AI API，不需要伺服器端服務。
 - 公開網站中的檔案與文字可被訪客讀取；不要放入私人資料、密碼或 API 金鑰。
 - 來源文字檔中有兩處疑似文字辨識錯誤：`sin of wands` 應核對是否為 `son of wands`；`ten of wands` 的標題出現在 Father of Wands 段落前，發布前建議與原書核對。
+
+
+版本 V2 更新：
+- 六個主選單均可點擊並顯示牌組介紹。
+- Major Arcana、Minor Arcana 介紹與 Court Cards／四個家族說明加入繁體中文翻譯。
+- Wands 仍保留 14 張牌的搜尋與中英牌義閱讀。
+- Cups、Swords、Pentacles 目前提供介紹文字，牌卡資料尚未加入。
+- 圖片仍為預留位置，請使用有權使用或已取得授權的圖片。
