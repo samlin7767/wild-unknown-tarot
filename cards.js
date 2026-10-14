@@ -87,7 +87,8 @@ const WANDS_CARDS = [
     "keywords": "BURDENS, BLOCKAGE, DIFFICULTY",
     "keywordsZh": "重擔、阻礙、困難",
     "en": "The Ten of Wands is a difficult card to face. Mental or physical burdens have been weighing on your spirit. Over time this leads to hopelessness and depression. You simply can't \"get through\" to what you want. You cannot see the way. If this card appears in response to a person or situation, it may be best to simply walk away. But if this card comes up frequently, it indicates you are attracted to negativity. You choose to walk the hard road.",
-    "zhText": "權杖十是一張令人難以面對的牌。心理或身體上的重擔一直壓在你心頭，久而久之可能帶來無望與低落。你似乎無法抵達自己想要的地方，也看不見前方的路。如果這張牌回應的是某個人或某種情況，離開也許是較好的選擇。但如果它頻繁出現，可能表示你容易被負面事物吸引，並不自覺地選擇了一條艱難的道路。"
+    "zhText": "權杖十是一張令人難以面對的牌。心理或身體上的重擔一直壓在你心頭，久而久之可能帶來無望與低落。你似乎無法抵達自己想要的地方，也看不見前方的路。如果這張牌回應的是某個人或某種情況，離開也許是較好的選擇。但如果它頻繁出現，可能表示你容易被負面事物吸引，並不自覺地選擇了一條艱難的道路。",
+    "image": "ten-of-wands.png"
   },
   {
     "num": "11",

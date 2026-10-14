@@ -31,3 +31,8 @@
 - Wands 仍保留 14 張牌的搜尋與中英牌義閱讀。
 - Cups、Swords、Pentacles 目前提供介紹文字，牌卡資料尚未加入。
 - 圖片仍為預留位置，請使用有權使用或已取得授權的圖片。
+
+
+## 版本更新：加入 Ten of Wands 圖片
+- 已加入 ten-of-wands.png，並配對到 Ten of Wands（權杖十）。
+- 上傳更新時，請把 index.html、cards.js、README.txt、ten-of-wands.png 一起放在 Repository 根目錄。
