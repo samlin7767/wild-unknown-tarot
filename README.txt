@@ -36,3 +36,10 @@
 ## 版本更新：加入 Ten of Wands 圖片
 - 已加入 ten-of-wands.png，並配對到 Ten of Wands（權杖十）。
 - 上傳更新時，請把 index.html、cards.js、README.txt、ten-of-wands.png 一起放在 Repository 根目錄。
+
+
+## V4 手機閱讀優化
+- 手機版導覽選單改為可橫向滑動。
+- 牌卡列表改為雙欄卡片，方便手機瀏覽。
+- 牌義詳細頁新增繁體中文、English、中英對照切換；手機預設先顯示繁體中文，減少長頁面滑動。
+- 桌機仍會同時顯示中英文。

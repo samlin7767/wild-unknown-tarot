@@ -24,6 +24,54 @@ main{min-width:0}.page-head{display:flex;align-items:flex-end;justify-content:sp
 footer{border-top:1px solid var(--line);text-align:center;padding:22px;color:var(--muted);font-size:.75rem}
 @media(max-width:900px){.layout{grid-template-columns:1fr;gap:24px}.aside-inner{position:static}.nav{display:flex;overflow:auto;padding-bottom:5px}.nav-label{margin-top:0}.nav button{white-space:nowrap}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}header{align-items:flex-start}.subtitle{max-width:180px}}
 @media(max-width:560px){header{padding:22px 18px;display:block}.subtitle{text-align:left;margin-top:8px}.layout{padding:18px}.page-head{display:block}.search{margin-top:14px;width:100%}.cards{grid-template-columns:1fr}.card{padding:12px}.art{flex-basis:64px}.detail-grid{grid-template-columns:1fr;gap:20px}.large-art{width:145px}.detail{padding:18px}}
+
+/* Mobile reading improvements */
+.language-switch{display:none;gap:8px;margin:18px 0 8px}
+.language-switch button{border:1px solid var(--line);background:var(--bg);color:var(--muted);border-radius:999px;padding:8px 15px;font:inherit;font-size:.9rem;cursor:pointer}
+.language-switch button.active{background:var(--accent-soft);border-color:#c7cbb8;color:var(--ink);font-weight:600}
+.reading-block{min-width:0}
+@media(max-width:560px){
+  body{font-size:16px;line-height:1.78}
+  header{padding:18px 16px 16px}
+  .brand small{font-size:.62rem;letter-spacing:.16em}
+  h1{font-size:1.35rem;line-height:1.4}
+  .subtitle{font-size:.78rem;line-height:1.55}
+  .layout{padding:14px 12px;gap:16px}
+  aside{position:sticky;top:0;z-index:10;background:var(--bg);margin:0 -12px;padding:8px 12px 6px;border-bottom:1px solid var(--line)}
+  .nav-label{margin:0 0 5px 4px;font-size:.62rem}
+  .nav{gap:5px;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+  .nav button{padding:8px 11px;font-size:.82rem;border:1px solid transparent;flex:0 0 auto}
+  .nav button.active{border-color:#d9ddcf}
+  .page-head{margin-bottom:15px}
+  .page-head h2{font-size:1.65rem;line-height:1.35}
+  .page-head p{font-size:.88rem;line-height:1.6;margin-top:5px}
+  .search{padding:12px;font-size:16px;margin-top:12px}
+  .intro-panel{padding:16px;border-radius:11px;font-size:.94rem;line-height:1.8}
+  .intro-panel h3{font-size:1.08rem}
+  .intro-panel p{margin-bottom:14px}
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .card{display:block;padding:10px;border-radius:10px;min-width:0}
+  .art{width:100%;height:auto;aspect-ratio:2/3;margin-bottom:9px}
+  .card-copy{padding:0 1px}
+  .card-num{font-size:.6rem;letter-spacing:.07em}
+  .card h3{font-size:.9rem;line-height:1.4;overflow-wrap:anywhere}
+  .card .zh{font-size:.78rem}
+  .keywords{font-size:.61rem;line-height:1.45;letter-spacing:0;margin-top:5px;overflow-wrap:anywhere}
+  .detail{padding:15px 14px;border-radius:12px}
+  .back{font-size:.88rem;margin-bottom:14px;min-height:40px}
+  .detail-grid{display:grid;grid-template-columns:1fr;gap:14px}
+  .large-art{width:108px;max-width:108px;margin:0 auto 2px}
+  .detail-grid>div:last-child{min-width:0}
+  .detail h2{font-size:1.55rem;line-height:1.35;overflow-wrap:anywhere}
+  .detail .translated{font-size:.95rem}
+  .detail .keywords{font-size:.72rem;line-height:1.65;margin-bottom:12px}
+  .language-switch{display:flex;flex-wrap:wrap}
+  .text-label{font-size:.68rem;letter-spacing:.12em;margin-top:17px}
+  .detail p{font-size:1rem;line-height:1.9;overflow-wrap:anywhere}
+  .notice{font-size:.75rem;line-height:1.7}
+  footer{padding:18px 12px;font-size:.7rem}
+}
+
 </style>
 </head>
 <body>
@@ -77,8 +125,21 @@ function render(){
  filtered.forEach(c=>{const el=document.createElement('button');el.className='card';el.innerHTML=`<div class="art ${c.image ? 'has-image' : ''}" aria-label="牌面圖片">${c.image ? `<img src="${c.image}" alt="${c.name} tarot card">` : ''}</div><div class="card-copy"><div class="card-num">${c.num} / WANDS</div><h3>${c.name}</h3><div class="zh">${c.zh}</div><div class="keywords">${c.keywords}</div></div>`;el.addEventListener('click',()=>openCard(c));grid.appendChild(el)});
 }
 function openCard(c){
- detail.innerHTML=`<button class="back" id="back">← 返回權杖牌組</button><div class="detail-grid"><div class="large-art ${c.image ? 'has-image' : ''}" aria-label="牌面圖片">${c.image ? `<img src="${c.image}" alt="${c.name} tarot card">` : ''}</div><div><div class="eyebrow">${c.num} · WANDS</div><h2>${c.name}</h2><div class="translated">${c.zh}</div><div class="keywords">${c.keywords}<br>${c.keywordsZh}</div><div class="text-label">Original English</div><p>${c.en}</p><div class="text-label">繁體中文翻譯</div><p>${c.zhText}</p></div></div>`;
- detail.classList.add('open');document.getElementById('back').addEventListener('click',()=>{detail.classList.remove('open');detail.innerHTML='';});
+ detail.innerHTML=`<button class="back" id="back">← 返回權杖牌組</button><div class="detail-grid"><div class="large-art ${c.image ? 'has-image' : ''}" aria-label="牌面圖片">${c.image ? `<img src="${c.image}" alt="${c.name} tarot card">` : ''}</div><div><div class="eyebrow">${c.num} · WANDS</div><h2>${c.name}</h2><div class="translated">${c.zh}</div><div class="keywords">${c.keywords}<br>${c.keywordsZh}</div><div class="language-switch" aria-label="選擇閱讀語言"><button type="button" data-language="zh" class="active">繁體中文</button><button type="button" data-language="en">English</button><button type="button" data-language="both">中英對照</button></div><div class="reading-block" data-reading="en"><div class="text-label">Original English</div><p>${c.en}</p></div><div class="reading-block active" data-reading="zh"><div class="text-label">繁體中文翻譯</div><p>${c.zhText}</p></div></div></div>`;
+ detail.classList.add('open');
+ document.getElementById('back').addEventListener('click',()=>{detail.classList.remove('open');detail.innerHTML='';});
+ const langButtons=detail.querySelectorAll('[data-language]');
+ langButtons.forEach(btn=>btn.addEventListener('click',()=>{
+   langButtons.forEach(b=>b.classList.toggle('active',b===btn));
+   const mode=btn.dataset.language;
+   detail.querySelectorAll('[data-reading]').forEach(block=>{
+     block.style.display=(mode==='both'||block.dataset.reading===mode)?'block':'none';
+   });
+ }));
+ // On desktop, show both languages. On phones, start with Traditional Chinese to reduce scrolling.
+ const isPhone=window.matchMedia('(max-width: 560px)').matches;
+ detail.querySelectorAll('[data-reading]').forEach(block=>{block.style.display=(!isPhone||block.dataset.reading==='zh')?'block':'none';});
+ langButtons.forEach(b=>b.classList.toggle('active',b.dataset.language===(isPhone?'zh':'both')));
  detail.scrollIntoView({behavior:'smooth',block:'start'});
 }
 search.addEventListener('input',()=>{query=search.value.trim();render()});
