@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f4ee">
+<title>The Wild Unknown｜Tarot Reference</title>
+<style>
+:root{--bg:#f7f4ee;--paper:#fffdf9;--ink:#282620;--muted:#79756c;--line:#e4ded2;--accent:#6d7158;--accent-soft:#eceee5}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+header{max-width:1180px;margin:auto;padding:32px 26px 22px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line)}
+.brand small{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}h1{font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(1.4rem,3vw,2rem);font-weight:400;letter-spacing:.04em;margin:5px 0 0}.subtitle{font-size:.85rem;color:var(--muted);text-align:right}
+.layout{max-width:1180px;margin:auto;padding:26px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:38px}
+aside{position:sticky;top:20px;align-self:start}.nav-label{font-size:.68rem;letter-spacing:.16em;color:var(--muted);text-transform:uppercase;margin:0 0 10px 10px}
+.nav{display:grid;gap:4px}.nav button{border:0;background:transparent;text-align:left;padding:11px 13px;border-radius:8px;font:inherit;font-size:.9rem;color:#625e55;cursor:pointer}.nav button:hover{background:#eeeadf}.nav button.active{background:var(--accent-soft);color:#353a2a;font-weight:600}.nav .disabled{opacity:.55}
+main{min-width:0}.page-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:22px}.eyebrow{color:var(--accent);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase}.page-head h2{font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(1.6rem,3vw,2.35rem);font-weight:400;margin:3px 0}.page-head p{color:var(--muted);margin:0;font-size:.9rem}
+.search{width:min(290px,100%);border:1px solid var(--line);background:var(--paper);padding:12px 14px;border-radius:8px;font:inherit;outline:none}.search:focus{border-color:var(--accent)}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.card{border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:16px;text-align:left;color:inherit;cursor:pointer;display:flex;gap:14px;align-items:center;transition:border-color .2s,transform .2s;min-width:0}.card:hover{border-color:#a4a58d;transform:translateY(-2px)}
+.art{flex:0 0 72px;aspect-ratio:2/3;border:1px solid #bdb9a8;border-radius:4px;background:linear-gradient(145deg,#f1eee5,#e4e0d3);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;color:#666c51}.art:before{content:"✳";font-family:Georgia,serif;font-size:2.4rem;opacity:.7}.art:after{content:"IMAGE";position:absolute;bottom:6px;font-size:.48rem;letter-spacing:.16em;color:#777467}.card-copy{min-width:0}.card-num{font-size:.68rem;color:var(--muted);letter-spacing:.12em}.card h3{font-family:Georgia,"Noto Serif TC",serif;font-size:1rem;font-weight:500;margin:3px 0}.card .zh{font-size:.82rem;color:var(--muted)}.keywords{font-size:.68rem;line-height:1.5;letter-spacing:.04em;color:var(--accent);margin-top:8px}
+.detail{display:none;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,32px);margin-bottom:18px}.detail.open{display:block}.back{border:0;background:transparent;color:var(--accent);font:inherit;cursor:pointer;padding:0;margin-bottom:18px}.detail-grid{display:grid;grid-template-columns:190px minmax(0,1fr);gap:30px}.large-art{aspect-ratio:2/3;max-width:190px;width:100%;border:1px solid #bdb9a8;border-radius:5px;background:linear-gradient(145deg,#f1eee5,#e4e0d3);display:flex;align-items:center;justify-content:center;color:#666c51;position:relative}.large-art:before{content:"✳";font-family:Georgia,serif;font-size:5rem;opacity:.7}.large-art:after{content:"CARD IMAGE PLACEHOLDER";position:absolute;bottom:12px;font-size:.52rem;letter-spacing:.12em;color:#777467}
+.detail h2{font-family:Georgia,"Noto Serif TC",serif;font-weight:400;font-size:clamp(1.5rem,3vw,2.2rem);margin:0}.detail .translated{color:var(--muted);margin:2px 0 10px}.detail .keywords{font-size:.76rem;margin:0 0 20px}.text-label{font-size:.67rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:20px 0 5px}.detail p{margin:0;white-space:pre-line}.empty{grid-column:1/-1;padding:36px;text-align:center;color:var(--muted);background:var(--paper);border:1px dashed var(--line);border-radius:12px}
+.notice{font-size:.8rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin-top:26px}
+footer{border-top:1px solid var(--line);text-align:center;padding:22px;color:var(--muted);font-size:.75rem}
+@media(max-width:900px){.layout{grid-template-columns:1fr;gap:24px}.aside-inner{position:static}.nav{display:flex;overflow:auto;padding-bottom:5px}.nav-label{margin-top:0}.nav button{white-space:nowrap}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}header{align-items:flex-start}.subtitle{max-width:180px}}
+@media(max-width:560px){header{padding:22px 18px;display:block}.subtitle{text-align:left;margin-top:8px}.layout{padding:18px}.page-head{display:block}.search{margin-top:14px;width:100%}.cards{grid-template-columns:1fr}.card{padding:12px}.art{flex-basis:64px}.detail-grid{grid-template-columns:1fr;gap:20px}.large-art{width:145px}.detail{padding:18px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><small>Personal Tarot Reference</small><h1>The Wild Unknown · 塔羅牌義圖鑑</h1></div>
+  <div class="subtitle">簡約閱讀・中英對照<br>Tarot meanings, thoughtfully collected</div>
+</header>
+<div class="layout">
+  <aside><div class="aside-inner">
+    <p class="nav-label">Library / 牌組</p>
+    <nav class="nav" aria-label="塔羅牌組">
+      <button data-section="major">The Major Arcana</button>
+      <button data-section="minor">The Minor Arcana</button>
+      <button data-section="wands" class="active">Wands <span>／權杖</span></button>
+      <button data-section="cups" class="disabled">Cups <span>／聖杯</span></button>
+      <button data-section="swords" class="disabled">Swords <span>／寶劍</span></button>
+      <button data-section="pentacles" class="disabled">Pentacles <span>／星幣</span></button>
+    </nav>
+  </div></aside>
+  <main>
+    <div class="page-head">
+      <div><div class="eyebrow">Minor Arcana · Suit of Fire</div><h2 id="sectionTitle">Wands｜權杖</h2><p id="sectionDesc">靈感、創造力、目標與夢想。選擇一張牌，閱讀英文原文與繁體中文翻譯。</p></div>
+      <input class="search" id="search" type="search" placeholder="搜尋牌名或關鍵字…" aria-label="搜尋牌名或關鍵字">
+    </div>
+    <section class="detail" id="detail" aria-live="polite"></section>
+    <section class="cards" id="cards"></section>
+    <div class="notice">圖片位置目前為版型示意。請替換成你有權使用的牌卡圖片；牌義英文依提供的文字檔整理，中文為對應翻譯。此網站為個人閱讀工具，不構成專業建議。</div>
+  </main>
+</div>
+<footer>The Wild Unknown Tarot Reference · Personal reading project</footer>
+<script src="cards.js"></script>
+<script>
+const grid=document.getElementById('cards'),detail=document.getElementById('detail'),search=document.getElementById('search');
+const title=document.getElementById('sectionTitle'),desc=document.getElementById('sectionDesc');
+let current='wands',query='';
+const sectionInfo={
+major:['The Major Arcana','大阿爾克那牌義將於後續階段加入。'],
+minor:['The Minor Arcana','小阿爾克那總覽將於後續階段加入。'],
+wands:['Wands｜權杖','靈感、創造力、目標與夢想。選擇一張牌，閱讀英文原文與繁體中文翻譯。'],
+cups:['Cups｜聖杯','此牌組將於後續階段加入。'],
+swords:['Swords｜寶劍','此牌組將於後續階段加入。'],
+pentacles:['Pentacles｜星幣','此牌組將於後續階段加入。']
+};
+document.querySelectorAll('[data-section]').forEach(btn=>btn.addEventListener('click',()=>{
+ const sec=btn.dataset.section;
+ if(sec!=='wands'){alert('第一階段先完成 Wands（權杖）牌組；其他選單已預留，之後可以逐步加入。');return}
+ current=sec;document.querySelectorAll('[data-section]').forEach(b=>b.classList.toggle('active',b===btn));render();
+}));
+function render(){
+ title.textContent=sectionInfo[current][0];desc.textContent=sectionInfo[current][1];
+ detail.classList.remove('open');detail.innerHTML='';
+ const filtered=WANDS_CARDS.filter(c=>(c.name+' '+c.zh+' '+c.keywords+' '+c.keywordsZh+' '+c.en+' '+c.zhText).toLowerCase().includes(query.toLowerCase()));
+ grid.innerHTML='';
+ if(!filtered.length){grid.innerHTML='<div class="empty">沒有找到符合的牌。請試試其他關鍵字。</div>';return}
+ filtered.forEach(c=>{
+  const el=document.createElement('button');el.className='card';
+  el.innerHTML=`<div class="art" aria-label="牌面圖片預留位置"></div><div class="card-copy"><div class="card-num">${c.num} / WANDS</div><h3>${c.name}</h3><div class="zh">${c.zh}</div><div class="keywords">${c.keywords}</div></div>`;
+  el.addEventListener('click',()=>openCard(c));grid.appendChild(el);
+ });
+}
+function openCard(c){
+ detail.innerHTML=`<button class="back" id="back">← 返回權杖牌組</button><div class="detail-grid"><div class="large-art" aria-label="牌面圖片預留位置"></div><div><div class="eyebrow">${c.num} · WANDS</div><h2>${c.name}</h2><div class="translated">${c.zh}</div><div class="keywords">${c.keywords}<br>${c.keywordsZh}</div><div class="text-label">Original English</div><p>${c.en}</p><div class="text-label">繁體中文翻譯</div><p>${c.zhText}</p></div></div>`;
+ detail.classList.add('open');document.getElementById('back').addEventListener('click',()=>{detail.classList.remove('open');detail.innerHTML='';});
+ detail.scrollIntoView({behavior:'smooth',block:'start'});
+}
+search.addEventListener('input',()=>{query=search.value.trim();render()});
+render();
+</script>
+</body>
+</html>
