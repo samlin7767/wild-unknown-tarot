@@ -1,10 +1,1 @@
-The Wild Unknown Tarot Reference — V11
-
-更新內容：
-- 依先前通過的 ten-of-wands.png 測試圖作為視覺標準。
-- 其餘 13 張權杖牌依牌卡外框進行四角透視校正，統一成端正直向版面。
-- 保留卡片白色邊框、原始畫作與手寫字；只做輕度對比與銳利度調整。
-- 修正手機詳細牌義文字超出右側邊界的問題。
-- 保留搜尋、中英文切換、六個選單及手機直向閱讀。
-
-上傳方式：將此資料夾內全部檔案上傳至原 GitHub Repository 根目錄，覆蓋同名檔案後 Commit changes。
+The Wild Unknown Tarot Reference 
