@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f7f4ee">
+<meta name="robots" content="noindex">
 <title>The Wild Unknown｜Tarot Reference</title>
 <style>
 :root{--bg:#f7f4ee;--paper:#fffdf9;--ink:#282620;--muted:#79756c;--line:#e4ded2;--accent:#6d7158;--accent-soft:#eceee5}
@@ -37,11 +38,13 @@ footer{border-top:1px solid var(--line);text-align:center;padding:22px;color:var
   h1{font-size:1.35rem;line-height:1.4}
   .subtitle{font-size:.78rem;line-height:1.55}
   .layout{padding:14px 12px;gap:16px}
-  aside{position:sticky;top:0;z-index:10;background:var(--bg);margin:0 -12px;padding:8px 12px 6px;border-bottom:1px solid var(--line)}
-  .nav-label{margin:0 0 5px 4px;font-size:.62rem}
-  .nav{gap:5px;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
-  .nav button{padding:8px 11px;font-size:.82rem;border:1px solid transparent;flex:0 0 auto}
-  .nav button.active{border-color:#d9ddcf}
+  /* Mobile: all navigation flows vertically with the page; no horizontal scrolling */
+  aside{position:static;z-index:auto;background:transparent;margin:0;padding:0;border-bottom:0}
+  .aside-inner{position:static}
+  .nav-label{margin:0 0 6px 4px;font-size:.62rem}
+  .nav{display:grid;grid-template-columns:1fr;gap:4px;overflow:visible;padding:0}
+  .nav button{display:block;width:100%;white-space:normal;text-align:left;padding:10px 12px;font-size:.88rem;border:1px solid var(--line);border-radius:8px;flex:none}
+  .nav button.active{border-color:#c7cbb8;background:var(--accent-soft)}
   .page-head{margin-bottom:15px}
   .page-head h2{font-size:1.65rem;line-height:1.35}
   .page-head p{font-size:.88rem;line-height:1.6;margin-top:5px}
