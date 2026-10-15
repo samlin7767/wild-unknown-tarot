@@ -161,7 +161,7 @@ const TAROT_CARDS = [
     "keywords": "LOVE'S BEGINNINGS",
     "keywordsZh": "愛的開始",
     "en": "Aces mark the beginning of exciting new phases. since the suit of cups deals specifically with love and emotion, you're in for a real treat.\n\nExpect to enter a blissful time of health, joy, and friendship. A new love could be on the horizon. You may feel that you're making a whole new start... just go with it and allow this feeling to revitalize your spirit.",
-    "zhText": "聖杯王牌象徵令人振奮的新階段。由於聖杯與愛及情感有關，你可能迎來健康、喜悅與友誼交織的美好時光，也可能有新的戀情出現。把它視為全新的開始，讓這份感受重新滋養你的心靈。"
+    "zhText": "這是一張令人振奮、充滿活力的牌。聖杯王牌表示，你正站在一個新階段的起點。由於聖杯牌組與愛和情感息息相關，你可能會迎來一段健康、喜悅與友誼交織的美好時光。也可能有新的戀情即將展開。請把它視為全新的開始，讓這份感受重新滋養你的心靈。"
   },
   {
     "section": "cups",
@@ -171,7 +171,7 @@ const TAROT_CARDS = [
     "keywords": "CONNECTION, LOVE, ROMANCE",
     "keywordsZh": "連結、愛、浪漫",
     "en": "say hello to the much adored Two of cups.\n\nWhen this card appears, you can anticipate new love to be heading your way. And yes, this usually means romance... but sometimes it points to the birth of a dear and lasting friendship. Either way, the connection between you will be pure, honest, and solid. Open your heart and get ready.",
-    "zhText": "聖杯二象徵純粹、真誠而穩固的連結。你可能迎來新的愛情，也可能建立珍貴且長久的友誼。敞開心胸，迎接這段關係。"
+    "zhText": "聖杯二描繪的是純粹、真誠而穩固的連結。你可能正要迎來一段新的戀情，也可能會建立一段珍貴且長久的友誼。敞開心胸，讓這段關係進入你的生命。"
   },
   {
     "section": "cups",
@@ -181,7 +181,7 @@ const TAROT_CARDS = [
     "keywords": "FRIENDSHIP, JOY, BOUNTY",
     "keywordsZh": "友誼、喜悅、豐盛",
     "en": "The Three of cups is a lovely card. It foresees you in the company of amazing friends, creating memories together that you'll forever hold dear. These are not any ol friends; they are people with whom you feel a rare connection. With them you feel truly \"yourself.\" Enjoy each minute of their company. This card can also indicate an upcoming celebration. Love abounds!",
-    "zhText": "聖杯三預示你將與重要的朋友共度美好時光，創造值得珍藏的回憶。這些人讓你能自在做自己。它也可能代表即將到來的慶祝活動，愛與喜悅充滿其中。"
+    "zhText": "聖杯三表示，你即將與生命中重要的朋友共度美好時光。你們會一起創造值得珍藏的回憶，而這些人讓你能自在地做自己。這張牌也可能預示一場即將到來的慶祝活動，其中充滿愛與喜悅。"
   },
   {
     "section": "cups",
@@ -191,7 +191,7 @@ const TAROT_CARDS = [
     "keywords": "GREED, DISCONTENT",
     "keywordsZh": "貪求、不滿",
     "en": "An outsider would look upon your life and see supportive relationships, pleasures, and even a bit of luxury. But you don't see it that way.\n\nInstead, there's discontentment, apathy, and even greed for more. The Four of cups warns not to take your situation for granted, or the people who supported you along the way.\n\nLook around you. What are you truly longing for? Name it.",
-    "zhText": "旁人或許看見你擁有支持、關係與享受，你卻感到不滿、冷漠，總想要更多。別把眼前的人事物視為理所當然。問問自己：你真正渴望的是什麼？"
+    "zhText": "當你看到聖杯四時，可能會發現自己對生活有些不滿。旁人或許看得見你所擁有的支持、關係與享受，但你自己卻感到冷漠，總覺得還想要更多。不要把眼前的人事物視為理所當然。花點時間問問自己：你真正渴望的是什麼？"
   },
   {
     "section": "cups",
@@ -201,7 +201,7 @@ const TAROT_CARDS = [
     "keywords": "GRIEF, DISAPPOINTMENT",
     "keywordsZh": "悲傷、失望",
     "en": "The Five of cups indicates a time of sorrow.\n\nA relationship may fall apart or an old friend could slip away. There will be disappointment and even regret. When this card appears, it's important not to make any hasty decisions. It may also be helpful to look at the type of expectations you place on others. Perhaps they can never do enough to please you.",
-    "zhText": "這張牌帶來悲傷、關係破裂、失去老朋友或後悔的感受。先不要急著做決定，試著檢視自己對他人的期待。"
+    "zhText": "聖杯五是一張令人感到沉重的牌，可能帶來悲傷、關係破裂、失去老朋友，或對過去感到後悔的情緒。先不要急著做出決定。試著檢視自己對他人的期待，看看這些期待是否需要重新調整。"
   },
   {
     "section": "cups",
@@ -211,7 +211,7 @@ const TAROT_CARDS = [
     "keywords": "MEMORIES, CHILDHOOD, JOY",
     "keywordsZh": "回憶、童年、喜悅",
     "en": "A card of beautiful implications, the six of cups focuses on the magic and innocence of childhood. The roots of years past are alight with color and vibrancy... look back upon them, get lost in your memories. Old friends may surface and seek you out. All reunions will be joyful. Enjoy simple pleasure and wonder in all areas of your life.",
-    "zhText": "聖杯六喚起童年的純真與魔法般的感受。回望記憶、與老朋友重逢，或享受簡單的樂趣，都可能帶來喜悅與驚奇。"
+    "zhText": "聖杯六帶來童年的純真，以及彷彿魔法般的感受。回望過去的記憶、與老朋友重逢，或單純享受生活中的小樂趣，都可能為你帶來喜悅與驚奇。讓自己重新感受那份單純。"
   },
   {
     "section": "cups",
@@ -221,7 +221,7 @@ const TAROT_CARDS = [
     "keywords": "ILLUSION, DECEPTION",
     "keywordsZh": "幻象、欺瞞",
     "en": "The seven of cups is not the most welcome card. It indicates you'll face temptation in many aspects of your life. Whether it's cheating for pleasure or for money, you'll soon realize you've been building a house of cards. You may feel as though you can't see clearly, can't judge right from wrong or up from down. This is the spell of the seven of cups. It's best to remove yourself for a while, step back until you can see straight again.",
-    "zhText": "你可能面臨各種誘惑，例如為了享樂或金錢而欺瞞，最後發現自己建立的只是脆弱假象。當你難以分辨對錯時，先抽離情境、退一步，直到重新看清方向。"
+    "zhText": "聖杯七提醒你留意誘惑。你可能遇到各種看似誘人的選擇，例如為了享樂或金錢而欺瞞，最後才發現自己建立的只是一個脆弱的假象。當你難以分辨什麼是對、什麼是錯時，先從情境中抽離，退一步觀察，直到重新看清方向。"
   },
   {
     "section": "cups",
@@ -231,7 +231,7 @@ const TAROT_CARDS = [
     "keywords": "STAGNATION, ILL HEALTH",
     "keywordsZh": "停滯、健康不佳",
     "en": "The Eight of cups sends an urgent message to pack your bags and move on. There is no hope of rekindling what's been lost. You must start anew. This card also points to phases of illness and physical stagnation. The message could not be more clear: nothing good remains for you here. Lift your eyes to the horizon, and let your feet lead you forward.",
-    "zhText": "聖杯八提醒你收拾行囊、繼續前行。失去的事物已難以重燃，你需要重新開始。它也可能指向疾病或身心停滯。抬頭望向地平線，讓自己走向新的方向。"
+    "zhText": "聖杯八提醒你收拾行囊，繼續向前走。過去失去的事物可能已難以重新點燃，你需要重新開始。這張牌有時也可能指向疾病，或身心陷入停滯的狀態。抬起頭，望向地平線，讓自己朝新的方向前進。"
   },
   {
     "section": "cups",
@@ -241,7 +241,7 @@ const TAROT_CARDS = [
     "keywords": "BLISS, HARMONY",
     "keywordsZh": "幸福、和諧",
     "en": "At last, the card of wishes come true.\n\nWhen the Nine of cups appears, worries and fears will be cast away. A new phase of peace and harmony awaits. The world seems to be granting your every wish. Good health, happiness, and even material gains are heading your way. Enjoy.",
-    "zhText": "聖杯九象徵願望成真。憂慮逐漸散去，新的平和與和諧正在到來。健康、快樂，甚至物質上的收穫都可能降臨，好好享受。"
+    "zhText": "聖杯九是一張令人欣喜的牌，象徵願望即將成真。憂慮正在逐漸散去，新的平和與和諧正要到來。健康、快樂，甚至物質上的收穫，都可能成為你生活的一部分。請好好享受這段時光。"
   },
   {
     "section": "cups",
@@ -251,7 +251,7 @@ const TAROT_CARDS = [
     "keywords": "RADIATING ENERGY",
     "keywordsZh": "散發能量",
     "en": "The Ten of cups overflows with positivity. your goals are being realized, and the excitement surrounding you is magnetic to others. You may feel as though light or color radiates outward from you-almost as if you're shining Experience sensations like this with an open and joyful heart. Do not doubt this power.",
-    "zhText": "聖杯十充滿正向能量，你的目標正在實現，周遭的人也會被你的熱情吸引。你可能感覺自己散發光芒與色彩。請以開放、喜悅的心接納這份力量。"
+    "zhText": "聖杯十充滿正向能量，顯示你的目標正逐步實現。你周遭的人也會受到你的熱情感染。你可能感覺自己正散發著光芒與色彩。請敞開心胸，以喜悅的態度接納這股力量。"
   },
   {
     "section": "cups",
@@ -261,7 +261,7 @@ const TAROT_CARDS = [
     "keywords": "CREATIVE, EMOTIONAL",
     "keywordsZh": "創意、感性",
     "en": "creative energy abounds from the Daughter of cups. She's romantic, artistic, and easily inspired by her surroundings. A true dreamer by nature, she struggles to stay \"grounded\" or to deal with any harsh realities that come her way. Conflict of any kind is very disturbing to this gentle creature.",
-    "zhText": "聖杯女兒富有創造力、浪漫而藝術感十足，很容易受到周遭事物啟發。她天生是夢想家，卻不容易腳踏實地，也較難面對嚴酷現實；任何衝突都會讓她不安。"
+    "zhText": "聖杯之女富有創造力、浪漫而充滿藝術氣息，很容易受到周遭事物啟發。她天生是個夢想家，卻不容易腳踏實地，也可能難以面對嚴酷的現實。任何形式的衝突都容易讓她感到不安。"
   },
   {
     "section": "cups",
@@ -271,7 +271,7 @@ const TAROT_CARDS = [
     "keywords": "ARTISTIC, INTROSPECTIVE",
     "keywordsZh": "藝術、內省",
     "en": "Like all of the cups family, the son truly excels within the arts. He's usually a musician or a visual artist of some kind, and he finds success within his field. His natural tendency to look inward adds to his charm and mystique.\n\nTo others he may seem secretive and even peaceful, while deep inside he carries a dark kernel of intensity.",
-    "zhText": "聖杯兒子擅長藝術，常是音樂家或視覺藝術創作者，並能在領域中取得成果。他習慣向內探索，帶有神祕氣質；外表可能安靜平和，內心卻藏著強烈情緒。"
+    "zhText": "聖杯之子具有藝術天分，常常是音樂家或視覺藝術創作者，而且能在自己的領域中取得成果。他習慣向內探索，帶有神祕的氣質。外表看似安靜平和，內心卻可能藏著強烈的情緒。"
   },
   {
     "section": "cups",
@@ -281,7 +281,7 @@ const TAROT_CARDS = [
     "keywords": "INSIGHTFUL, PSYCHIC",
     "keywordsZh": "洞察、直覺",
     "en": "The Mother of cups rivals the High Priestess with her natural psychic abilities. She's a gentle, tranquil woman whose insights bring healing to those around her. She thrives when amidst her family, the arts, and music or beauty of any kind. Like a true swan, when the Mother of cups is pushed, she becomes aggressive and defensive. she'll commonly see herself as the victim when distressed in a situation.",
-    "zhText": "聖杯母親擁有敏銳直覺，溫柔平靜，能以洞察力療癒周遭的人。她喜愛家庭、藝術、音樂與美。受到逼迫時，她可能變得強硬防衛；陷入困境時，也容易覺得自己是受害者。"
+    "zhText": "聖杯之母擁有敏銳的直覺，性情溫柔而平靜，並能運用自己的洞察力療癒周遭的人。她熱愛家庭、藝術、音樂與美。當她受到逼迫時，可能變得強硬而具有防衛性；當她陷入困境時，也容易覺得自己是受害者。"
   },
   {
     "section": "cups",
@@ -291,7 +291,7 @@ const TAROT_CARDS = [
     "keywords": "DIPLOMATIC, OPEN-MINDED",
     "keywordsZh": "圓融、開放",
     "en": "The Father of cups has a truly unique and dynamic personality. He's the most feminine of all the fathers within the tarot and usually a patron of the arts. He's a dignified man who supports his family and community. The only thing holding this man back are his deeply rooted insecurities; they are vast and affect his personality in many unpredictable ways.",
-    "zhText": "聖杯父親具有獨特而多變的個性，常支持藝術，也重視家庭與社群。他舉止有尊嚴，但深層的不安全感可能使他的反應難以預測。"
+    "zhText": "聖杯之父具有獨特而多變的個性。他經常支持藝術，也十分重視家庭與社群。他舉止端莊、有尊嚴，但內心深處的不安全感，有時可能使他的反應難以預測。"
   },
   {
     "section": "swords",
@@ -301,7 +301,7 @@ const TAROT_CARDS = [
     "keywords": "TRUTH, MENTAL CLARITY",
     "keywordsZh": "真相、思緒清晰",
     "en": "When lightning strikes, the whole world seems to light up for just one second. It's as though you can \"see everything,\" and this vision lingers on even through the storm. such is the power of the Ace of swords. your mind will become clear, your thoughts precise. It's a great time to make those decisions you've been putting off.",
-    "zhText": "閃電劃破天空的瞬間，世界彷彿突然清晰。寶劍王牌象徵頭腦清明、思路精準，是做出那些一直拖延的決定的好時機。"
+    "zhText": "一道閃電劃破天空的瞬間，世界彷彿突然變得清晰。寶劍王牌象徵頭腦清明與思路精準。現在正是做出那些你一直拖延、遲遲未能決定之事的好時機。"
   },
   {
     "section": "swords",
@@ -311,7 +311,7 @@ const TAROT_CARDS = [
     "keywords": "BLOCKED VISION, STALEMATE",
     "keywordsZh": "視線受阻、僵局",
     "en": "The Two of swords depicts two opposing forces that have reached a stalemate.\n\nYou cannot progress forward with either a relationship or a life decision. There's an answer that's being blocked-maybe by choice?\n\nMany times this card will indicate you do not wish to face the truth the light will reveal.",
-    "zhText": "兩股對立力量陷入僵局，讓關係或人生決策無法前進。答案可能被某種選擇阻擋；有時，你其實不想面對真相。"
+    "zhText": "寶劍二描繪兩股對立的力量陷入僵局，讓一段關係或人生中的某個決定無法繼續向前。答案可能被某種選擇擋住了。有時候，其實是你自己不願意面對真相。"
   },
   {
     "section": "swords",
@@ -321,7 +321,7 @@ const TAROT_CARDS = [
     "keywords": "BETRAYAL, HEARTBREAK, TURMOIL",
     "keywordsZh": "背叛、心碎、混亂",
     "en": "A dark and complex card, the Three of swords is rarely a welcome sight. Its wrath may come in the form of lies, betrayal, cheating, or heartbreak. There will be emotional entanglement and confusion. Do not try to make any decisions while in this state. Wait for your heart and spirit to mend.",
-    "zhText": "這是一張沉重而複雜的牌，可能帶來謊言、背叛、欺騙或心碎，也可能使情緒糾結、思緒混亂。此時先不要做重大決定，讓心與精神慢慢復原。"
+    "zhText": "寶劍三是一張沉重而複雜的牌。它可能象徵謊言、背叛、欺騙或心碎，也可能讓你感到情緒糾結、思緒混亂。此時先不要急著做出重大決定，給自己的心與精神一些時間，讓它們慢慢復原。"
   },
   {
     "section": "swords",
@@ -331,7 +331,7 @@ const TAROT_CARDS = [
     "keywords": "STILLNESS, MENTAL POWER",
     "keywordsZh": "靜止、心智力量",
     "en": "Though threatening swords loom above, the lamb sits in stillness without fear. The Four of swords says it's time to look inward and find the mental power to cope with the pressures. It's important to rest. seek meditation or find literature that focuses on ways to quiet the mind. Take this time to recuperate and move inward before those swords strike.",
-    "zhText": "即使頭頂有令人不安的寶劍，羔羊仍安靜而無懼。寶劍四提醒你向內探索，培養面對壓力的心智力量。休息、冥想，或閱讀能讓心安靜的內容，給自己時間恢復。"
+    "zhText": "即使頭頂上方有令人不安的寶劍，羔羊仍然安靜而無所畏懼。寶劍四提醒你向內探索，培養面對壓力所需的心智力量。你可以休息、冥想，或閱讀能讓心靈安靜下來的內容，給自己足夠的時間恢復。"
   },
   {
     "section": "swords",
@@ -341,7 +341,7 @@ const TAROT_CARDS = [
     "keywords": "SELF-DESTRUCTION",
     "keywordsZh": "自我毀滅",
     "en": "Yet another card of warning, the Five of swords depicts the destruction of the self.\n\nYou'll be lured into another situation or argument you know to avoid. Your selfishness and desire for power will lead you to defeat.\n\nPain and discord will result.",
-    "zhText": "這張警示牌象徵自我毀滅。你可能被引誘進入原本知道應該避開的情境或爭執。自私與對權力的渴望可能使你走向失敗，最後留下痛苦與不和。"
+    "zhText": "寶劍五是一張警示牌，象徵自我毀滅。你可能受到誘惑，走進一個原本就知道應該避開的情境或爭執。自私，以及對權力的渴望，可能把你帶向失敗，最後留下痛苦與不和。"
   },
   {
     "section": "swords",
@@ -351,7 +351,7 @@ const TAROT_CARDS = [
     "keywords": "HOPE AT LAST, TRAVEL",
     "keywordsZh": "終於看見希望、旅行",
     "en": "The six of swords is a card indicating a recovery from difficult times. Hope is on the horizon; things will get better. It's important to rest, revitalize, and surround yourself with joyful friends. Plan a trip, short or long.\n\nEven getting out of town for the weekend will further lift your spirits.",
-    "zhText": "寶劍六象徵從艱難時期逐漸復原，希望正在地平線上。休息、重新振作，並與愉快的朋友相處；安排一趟短途或長途旅行，也能提振心情。"
+    "zhText": "寶劍六象徵你正逐漸從艱難的時期復原，希望已出現在地平線上。讓自己休息、重新振作，並與能帶來愉快感受的朋友相處。安排一趟短途或長途旅行，也可能幫助你提振心情。"
   },
   {
     "section": "swords",
@@ -361,7 +361,7 @@ const TAROT_CARDS = [
     "keywords": "SECRECY, SELF-INTEREST",
     "keywordsZh": "秘密、自利",
     "en": "six swords hang in plain view, while the seventh is tucked under the sly fox's tail. so goes the story of the seven of swords... a secret is being kept. You're either the keeper or the kept-from, and it's time to identify which. Deceit and avoidance linger in the air. Face the cause of secrecy or risk ostracizing yourself.",
-    "zhText": "六把寶劍清楚可見，第七把卻藏在狐狸尾巴下，象徵有人隱瞞秘密。你可能是保守秘密的人，也可能是被蒙在鼓裡的人。面對欺瞞與逃避，找出秘密背後的原因。"
+    "zhText": "在這張牌中，六把寶劍清楚可見，第七把卻藏在狐狸的尾巴下，象徵有人隱瞞著秘密。你可能是保守秘密的人，也可能是被蒙在鼓裡的人。面對欺瞞與逃避時，試著找出這個秘密背後的原因。"
   },
   {
     "section": "swords",
@@ -371,7 +371,7 @@ const TAROT_CARDS = [
     "keywords": "TRAPPED, POWERLESS",
     "keywordsZh": "受困、無力",
     "en": "surrounded by obstacles and threats on all sides, you find yourself the victim. you see no way out, no available choices. Your perceptions Keep you from opening your wings and taking flight. What keeps you suspended here?\n\nYourself or others? The Eight of swords demands an answer. You cannot hang here much longer.",
-    "zhText": "四周都是障礙與威脅，你感覺自己無路可走、沒有選擇。真正限制你展翅的，可能是自己的認知，也可能是他人造成的處境。找出讓你受困的原因。"
+    "zhText": "寶劍八描繪四周都是障礙與威脅的情境，讓你覺得自己無路可走、沒有選擇。真正限制你展翅的，可能是自己的認知，也可能是他人造成的處境。找出究竟是什麼讓你受困，才能開始尋找出口。"
   },
   {
     "section": "swords",
@@ -381,7 +381,7 @@ const TAROT_CARDS = [
     "keywords": "DARK VISIONS, ANGUISH",
     "keywordsZh": "黑暗想像、痛苦",
     "en": "An extremely dark card, the Nine of swords reveals the deepest shadows of the self. It indicates insomnia, nightmares, and worries in the midnight hour. Often these states are accompanied by guilt, despair, or even depression. You'll be battling with yourself, so turn to others for help. Find joy. Reach out.",
-    "zhText": "寶劍九揭露內心最深的陰影，可能象徵失眠、惡夢與深夜的憂慮，也可能伴隨罪惡感、絕望或憂鬱。別獨自承受，向他人求助並重新尋找喜悅。"
+    "zhText": "寶劍九揭露內心最深處的陰影。它可能象徵失眠、惡夢，以及深夜裡揮之不去的憂慮，也可能伴隨罪惡感、絕望或憂鬱。不要獨自承受這些感受，試著向他人求助，並重新尋找生活中的喜悅。"
   },
   {
     "section": "swords",
@@ -391,7 +391,7 @@ const TAROT_CARDS = [
     "keywords": "RUIN, ROCK BOTTOM, MELODRAMA",
     "keywordsZh": "毀滅、谷底、戲劇化",
     "en": "When the Ten of swords appears, you've finally hit rock bottom. You've let others walk. all over you while you play the victim. Is it possible that you love the backstabbing and drama too much to move forward without it? If not for drama... what would you focus on? It's time to find out.",
-    "zhText": "寶劍十象徵跌至谷底。你可能任由他人傷害自己，卻不斷以受害者姿態面對一切。問問自己是否過度依賴衝突與戲劇化情境；現在是時候向前走了。"
+    "zhText": "寶劍十象徵跌落谷底。你可能任由他人傷害自己，卻又不斷以受害者的姿態面對一切。問問自己，是否過度依賴衝突與戲劇化的情境。現在是時候向前走了。"
   },
   {
     "section": "swords",
@@ -401,7 +401,7 @@ const TAROT_CARDS = [
     "keywords": "HONEST, INSIGHTFUL",
     "keywordsZh": "誠實、洞察",
     "en": "The Daughter of swords is a young woman whose honesty and insights take her far in life.\n\nPeople truly value her frankness. She learns from keen observation...it almost seems as though she never stops. \"watching.\" sometimes this becomes a burden for her, as she can't help noticing this or that small detail that could've been done better. There's a potential for her to hold on to those experiences and. become spiteful and judgmental.",
-    "zhText": "寶劍女兒年輕而坦率，誠實與洞察力讓她受人重視。她善於觀察、持續學習，但也可能過度注意細節，最後變得尖刻或愛批判。"
+    "zhText": "寶劍之女年輕而坦率。她的誠實與洞察力讓她受到重視。她善於觀察，也持續學習；然而，她可能過度關注細節，最後變得尖刻或愛批判。"
   },
   {
     "section": "swords",
@@ -411,7 +411,7 @@ const TAROT_CARDS = [
     "keywords": "FORCEFUL, DETERMINED",
     "keywordsZh": "強勢、堅定",
     "en": "A dynamic creature, the son of swords is a man of action, not of grace. He pushes forward toward his goal with urgency and determination. To top it off, he's very well educated, making him a force to be reckoned with. Usually he's seeking approval from the patient and just Father of swords, who casts quite a shadow onto his son. Working with this stimulating and exhausting young man can prove to be a challenge.",
-    "zhText": "寶劍兒子是行動派，會帶著急迫感與決心朝目標前進，也受過良好教育。他可能渴望得到父親的肯定；與這樣充滿刺激、卻也令人疲憊的年輕人合作並不容易。"
+    "zhText": "寶劍之子是個行動派，會帶著急迫感與決心朝目標前進，而且受過良好的教育。他通常渴望得到父親的肯定，而父親可能是一位沉穩、令人敬畏的人。與這位充滿刺激、卻也可能令人疲憊的年輕人共事，並不一定容易。"
   },
   {
     "section": "swords",
@@ -421,7 +421,7 @@ const TAROT_CARDS = [
     "keywords": "SHARP, PERCEPTIVE",
     "keywordsZh": "敏銳、洞察",
     "en": "You'll often find the Mother of swords putting her sharp perceptions to use as a therapist, doctor, or teacher. She's extremely experienced and knowledgeable in her field. some think of her as all-seeing. This card can sometimes represent a woman going through a difficult time. She may be recently widowed or divorced, and usually without children.\n\nDuring this time, there's potential for her criticism to soar.",
-    "zhText": "寶劍母親常將敏銳洞察運用於治療、醫療或教學等工作，經驗豐富、知識深厚。她有時可能正經歷艱難時期，例如喪偶或離婚；在這段時間，批判性可能變得更強。"
+    "zhText": "你經常會看到寶劍之母運用敏銳的觀察力與洞察力，從事心理諮商、醫療或教學等工作。她在自己的領域中經驗豐富、知識深厚，有些人甚至認為她無所不知。這張牌有時也可能代表一位正經歷艱難時期的女性；她可能最近喪偶或離婚，而且通常沒有孩子。在這段期間，她的批判傾向可能變得更加強烈。"
   },
   {
     "section": "swords",
@@ -431,7 +431,7 @@ const TAROT_CARDS = [
     "keywords": "FAIR, ANALYTICAL",
     "keywordsZh": "公正、分析",
     "en": "Like all the swords family, the Father has a gift for perception. He has a distinct ability to remove himself emotionally from a situation, so that he can truly see it from all angles. He is therefore respected by others, who usually describe him as fair or just. He's a responsible man with deep ties to his family.",
-    "zhText": "寶劍父親善於觀察，能抽離情緒，從不同角度看待事情，因此常被認為公平公正。他是一位負責任、與家庭有深厚連結的人。"
+    "zhText": "和寶劍家族的其他成員一樣，寶劍之父具有敏銳的洞察力。他很擅長在情感上抽離某個情境，因此能真正從各個角度看清事情。也因此，他受到他人尊重，大家通常認為他公平、公正。他是一位負責任、與家庭有深厚連結的男性。"
   },
   {
     "section": "pentacles",
@@ -441,7 +441,7 @@ const TAROT_CARDS = [
     "keywords": "PROSPEROUS BEGINNINGS",
     "keywordsZh": "繁榮的開始",
     "en": "In the center of even the giant redwood trees...a tiny seedling once stood. such is the energy of the Ace of Pentacles-it's the seed that takes root, grounding you for the future. You're in the beginning phases of a prosperous venture. stay grounded. Go outside and take time to appreciate nature.\n\nYou may also find a windfall of wealth headed your way.",
-    "zhText": "即使是巨大的紅杉樹，也曾從一株小小的幼苗開始。星幣王牌象徵種子扎根，為未來奠定基礎。你正踏入一段有望繁榮的計畫，請保持踏實、親近自然，也可能迎來意外之財。"
+    "zhText": "即使是高聳巨大的紅杉樹，也曾經只是一株小小的幼苗。這正是星幣王牌的能量——種子開始扎根，為你的未來奠定穩固的基礎。你正處於一項有望帶來繁榮的計畫初期。保持踏實，走到戶外，花點時間欣賞大自然。你也可能會迎來一筆意外之財。"
   },
   {
     "section": "pentacles",
@@ -451,7 +451,7 @@ const TAROT_CARDS = [
     "keywords": "BALANCE, CHANGE",
     "keywordsZh": "平衡、變化",
     "en": "The Two of Pentacles signifies inevitable change. Since the Pentacles suit relates to earthly possessions, this usually means a new job or financial situation or a move. Even if you fear this change, it needs to happen and might even be fun. Face it with the grace of a newly formed butterfly...a world of possibilities balanced upon your delicate wings.",
-    "zhText": "星幣二象徵不可避免的變化，可能涉及新工作、財務狀況或搬遷。即使你害怕改變，也要試著以蝴蝶般輕盈的姿態迎接它，因為其中蘊含許多可能性。"
+    "zhText": "星幣二象徵無可避免的變化。由於星幣牌組與現實中的物質事物有關，這通常可能代表換工作、財務狀況改變，或搬家。即使你害怕這些變化，它們仍有發生的必要，甚至可能帶來樂趣。試著像一隻剛羽化的蝴蝶般優雅地面對它：在纖細的翅膀上，平衡著一個充滿可能性的世界。"
   },
   {
     "section": "pentacles",
@@ -461,7 +461,7 @@ const TAROT_CARDS = [
     "keywords": "TEAMWORK, DETERMINATION, FOCUS",
     "keywordsZh": "團隊合作、決心、專注",
     "en": "The task ahead is a momentous one. Usually related to your job or career, the Three of pentacles suggests you must focus all of your efforts. Discipline, strategy, and hard work are needed more than ever. If you become weary or overwhelmed, rely on those around you. This is a card of teamwork, so you may need the strength of others to conquer the mountain.",
-    "zhText": "眼前的任務可能十分重大，通常與工作或職涯有關。你需要專注、紀律、策略與努力。若感到疲憊或不堪負荷，請依靠身邊的人；這是一張提醒你團隊合作的牌。"
+    "zhText": "眼前的任務十分重大。星幣三通常與工作或職涯有關，表示你必須全心投入。現在比以往任何時候都更需要紀律、策略與努力。如果你感到疲憊或不堪負荷，就依靠身邊的人。這是一張關於團隊合作的牌，你可能需要借助他人的力量，才能征服眼前這座高山。"
   },
   {
     "section": "pentacles",
@@ -471,7 +471,7 @@ const TAROT_CARDS = [
     "keywords": "POSSESSION, CONTROL",
     "keywordsZh": "占有、控制",
     "en": "The Four of Pentacles first suggests material gain and stability. Only good news for your bank account and home. Yet underneath the surface this is a card of warning. do not become possessive or controlling. Holding on too tightly to the material world will leave you rigid, stagnant, and displeasing to others.\n\nWealth is a concept.",
-    "zhText": "星幣四首先象徵物質收穫與穩定，可能是銀行帳戶或家庭方面的好消息。但它同時也是警告：不要變得佔有或控制欲過強。緊抓物質不放，會讓你僵化、停滯，也使他人難以親近。"
+    "zhText": "星幣四首先象徵物質上的收穫與穩定，對你的銀行帳戶與家庭而言，似乎都是好消息。然而，在表面之下，這張牌也帶有警告：不要變得佔有欲過強或試圖控制一切。過度緊抓物質世界不放，會讓你變得僵化、停滯，也可能使他人不喜歡與你相處。財富，其實是一種觀念。"
   },
   {
     "section": "pentacles",
@@ -481,7 +481,7 @@ const TAROT_CARDS = [
     "keywords": "SADNESS, WORRY, ILLNESS",
     "keywordsZh": "悲傷、擔憂、疾病",
     "en": "It may come in the form of an illness, job loss, financial trouble, or rejection. Above all this there will be worry, so much worry. This anxiety is counterproductive and damaging.\n\nYou must find a way to quiet the mind during this difficult time. Rely on meditation or visualization to find peace.",
-    "zhText": "困境可能以疾病、失業、財務問題或遭到拒絕的形式出現，並帶來大量憂慮。焦慮只會消耗自己；在艱難時期，試著透過冥想或觀想讓思緒平靜。"
+    "zhText": "困境可能以疾病、失業、財務問題或遭到拒絕的形式出現。更重要的是，這段時間可能伴隨大量、反覆不斷的憂慮。這種焦慮不但無助於解決問題，反而會消耗你、傷害你。在這段艱難的時期，你必須找到讓心安靜下來的方法。可以透過冥想或觀想，重新找回平靜。"
   },
   {
     "section": "pentacles",
@@ -491,7 +491,7 @@ const TAROT_CARDS = [
     "keywords": "PROSPERITY, GROWTH, GENEROSITY",
     "keywordsZh": "繁榮、成長、慷慨",
     "en": "The six of Pentacles indicates that your long-awaited fruits are ready for harvesting, bringing more wealth than anticipated. Make sure you are generous during this bountiful time. This card can also signify generosity coming from someone else. If this is the case, accept the help with grace and put the resources to good use.",
-    "zhText": "星幣六表示期待已久的成果終於可以收成，帶來超出預期的豐盛。此時請保持慷慨。若你是接受他人幫助的一方，也要心懷感激，並善用得到的資源。"
+    "zhText": "星幣六表示，你期待已久的成果已經到了可以收成的時候，而且帶來的豐盛可能超出預期。在這段富足的時期，請記得慷慨待人。這張牌也可能代表你會得到他人的慷慨相助。如果是如此，請坦然且心懷感激地接受幫助，並妥善運用這些資源。"
   },
   {
     "section": "pentacles",
@@ -501,7 +501,7 @@ const TAROT_CARDS = [
     "keywords": "PERIOD OF CONTEMPLATION",
     "keywordsZh": "沉思期",
     "en": "A curious card, the seven of Pentacles shows a period of contemplation and uncertainty.\n\nYou're looking back at all of your hard work and wondering if it has been a failure or a success. You can't seem to decide. Shouldn't you be reaping more rewards by now? Maybe so.\n\nBut the mind has control over perception. It's possible your rewards are waiting for you to recognize them. They are not always monetary.",
-    "zhText": "星幣七代表沉思與不確定。你回顧自己付出的努力，卻不確定這究竟算成功還是失敗，也可能覺得回報來得太慢。試著重新看見已經擁有的成果，回報不一定是金錢。"
+    "zhText": "星幣七是一張耐人尋味的牌，象徵一段沉思與不確定的時期。你回頭檢視自己付出的所有努力，開始懷疑這一切究竟算是成功還是失敗，卻始終無法下定論。你可能會想：到了現在，不是應該得到更多回報了嗎？也許確實如此。但你的心念會影響你如何看待事物。也有可能，回報其實已經在你身邊，只是你還沒有察覺。回報並不總是金錢。"
   },
   {
     "section": "pentacles",
@@ -511,7 +511,7 @@ const TAROT_CARDS = [
     "keywords": "CRAFTSMANSHIP, SKILL",
     "keywordsZh": "工藝、技能",
     "en": "The spider is a true master of her craft. She weaves against all odds with skill, intricacy, and confidence. The Eight of Pentacles requires a similar approach. Hone your skills. you are close to finding mastery at your craft, so strive for it. Pay attention to all the details. In some cases this card means you need to find a new hobby, something you truly enjoy. start a project. Become good at it.",
-    "zhText": "蜘蛛是技藝精湛的工匠，能以技巧、細緻與自信完成作品。星幣八提醒你磨練技能、留意細節，持續追求熟練。有時也代表尋找真正喜愛的新嗜好，開始一個計畫並努力精進。"
+    "zhText": "蜘蛛是真正精通自己技藝的大師。無論面對多少困難，她都能憑藉技巧、細緻與自信編織蛛網。星幣八也要求你採取同樣的態度：磨練自己的技能。你距離精通這門技藝已經不遠，因此要繼續努力。留意每一個細節。有時，這張牌也表示你需要尋找一項真正喜愛的新嗜好。開始一個計畫，並努力把它做好。"
   },
   {
     "section": "pentacles",
@@ -521,7 +521,7 @@ const TAROT_CARDS = [
     "keywords": "HAPPY, HEALTHY HOME",
     "keywordsZh": "幸福、健康的家",
     "en": "Always a welcome card, the Nine of Pentacles is a time to enjoy the many results of your loyalty and hard work. This may be a promotion at work or newfound stability and happiness at home. It's even possible that you'll find yourself enjoying the finer things in life, as luxury and refinement oftentimes accompany this card.",
-    "zhText": "星幣九提醒你享受忠誠與努力帶來的成果，可能是職場升遷，或家庭生活變得穩定而幸福。你也可能開始享受生活中的精緻、奢華與品味。"
+    "zhText": "星幣九總是一張令人欣喜的牌，提醒你享受忠誠與辛勤努力所帶來的各種成果。這可能是工作上的升遷，也可能是家庭生活中重新獲得穩定與幸福。你甚至可能開始享受生活中更精緻的事物，因為奢華與品味往往也伴隨著這張牌出現。"
   },
   {
     "section": "pentacles",
@@ -531,7 +531,7 @@ const TAROT_CARDS = [
     "keywords": "FULFILLMENT, ABUNDANCE",
     "keywordsZh": "圓滿、豐盛",
     "en": "The Ten of Pentacles signifies material and spiritual abundance in nearly every area of your life. The number ten usually indicates completion, and in this case the journey was well worth it. so be generous, not only with your money, but also with your wisdom. Provide guidance to those who struggle. You will be rewarded tenfold.",
-    "zhText": "星幣十象徵物質與精神層面的豐盛。數字十通常代表完成，而這段旅程值得付出。除了金錢，也要慷慨分享智慧，為遇到困難的人提供指引；你的付出終將得到回報。"
+    "zhText": "星幣十象徵你生命中幾乎各個層面的物質與精神豐盛。數字十通常代表完成，而在這張牌中，這段旅程證明一切努力都值得。因此，請慷慨分享，不只分享金錢，也分享你的智慧。為正在掙扎的人提供指引，你所付出的一切終將得到十倍的回報。"
   },
   {
     "section": "pentacles",
@@ -541,7 +541,7 @@ const TAROT_CARDS = [
     "keywords": "RESPONSIBLE, KIND, SUPPORTIVE",
     "keywordsZh": "負責、善良、支持",
     "en": "You'll usually find the Daughter of pentacles behind the scenes rather than out in the spotlight. Though quite shy, she's extremely hardworking and responsible. She handles details and logistics well-people depend on her. She has vast amounts of inner strength.\n\nLike all of the pentacles family, the Daughter thrives when in nature.",
-    "zhText": "星幣女兒通常默默在幕後工作，雖然害羞，卻勤奮而負責，擅長處理細節與安排，讓人可以信賴。她內在力量充沛，也和星幣家族一樣，在自然中最能自在成長。"
+    "zhText": "星幣之女通常在幕後默默工作，而不是站在聚光燈下。雖然她相當害羞，卻非常勤奮且負責。她擅長處理細節與安排事務，因此人們能夠信賴她。她擁有非常強大的內在力量。和星幣家族的其他成員一樣，她在大自然中最能自在地成長。"
   },
   {
     "section": "pentacles",
@@ -551,7 +551,7 @@ const TAROT_CARDS = [
     "keywords": "LOYAL, QUIET, DEDICATED",
     "keywordsZh": "忠誠、安靜、專注",
     "en": "The good side of the son of pentacles is that he's loyal and determined. He's inventive and can be trusted wholeheartedly. But sometimes this figure becomes stubborn and persistent to a fault. This, combined with his quiet nature, results in his being hard to get to know and socially awkward at times.\n\nHe commonly has only one or two close friends rather than many.",
-    "zhText": "星幣兒子忠誠、堅定、有創意，也值得信任；但有時會固執得過了頭。加上他個性安靜，可能不容易讓人親近或顯得不擅社交，通常只有一兩位親近朋友。"
+    "zhText": "星幣之子的優點是忠誠而堅定。他富有創意，也值得人們全心信任。但有時，他會固執、堅持到過了頭。再加上他安靜的個性，使人不容易真正了解他，他有時在社交場合也會顯得不自在。比起擁有許多朋友，他通常只有一、兩位親近的好友。"
   },
   {
     "section": "pentacles",
@@ -561,7 +561,7 @@ const TAROT_CARDS = [
     "keywords": "DOMESTIC, LOVING, PATIENT",
     "keywordsZh": "持家、慈愛、耐心",
     "en": "The Mother of Pentacles excels in the home.\n\nShe knows exactly what to do while raising a family and tending to the tasks of daily life.\n\nThere's a potential for her identity to become wrapped entirely around her children and home, which leaves her needy and attached.\n\nThis is the cause of most of her turmoil. She often has qualities of a healer and is very connected to nature.",
-    "zhText": "星幣母親擅長照顧家庭與處理日常事務，但也可能把自我認同完全繫於孩子和家，因而變得依賴或黏著。這是她內心動盪的來源之一；她也常具有療癒特質，並與自然緊密相連。"
+    "zhText": "星幣之母非常擅長打理家庭。無論是養育家人，還是處理日常生活中的大小事，她都知道該如何安排。然而，她也可能把自己的身分認同完全繫於孩子與家庭，因而變得依賴、黏著。這也是她內心許多動盪的來源。她往往具有療癒者的特質，並且與大自然保持深刻的連結。"
   },
   {
     "section": "pentacles",
@@ -571,7 +571,7 @@ const TAROT_CARDS = [
     "keywords": "STEADY, ENTREPRENEURIAL",
     "keywordsZh": "穩定、創業精神",
     "en": "The Father of Pentacles is a steady, gentle man. Upon first meeting, he can almost seem dull because of his extremely calm temperament. But underneath is an incredibly passionate man who prioritizes the stability of his job, family, and home. He is entrepreneurial and diligent at work. A true pleasure to know.",
-    "zhText": "星幣父親穩定而溫和，初見時可能因為過於冷靜而顯得平淡，但內心其實充滿熱情，重視工作、家庭與居所的穩定。他勤奮、有創業精神，是令人愉快的相處對象。"
+    "zhText": "星幣之父是一位穩重而溫和的男性。初次見面時，由於他的個性極為沉著，甚至可能讓人覺得有些乏味。但在平靜的外表之下，他其實充滿熱情，並將工作、家庭與居所的穩定放在優先位置。他勤奮工作，也具有創業精神。能夠認識他，是一件令人愉快的事。"
   },
   {
     "section": "major",
@@ -581,7 +581,7 @@ const TAROT_CARDS = [
     "keywords": "SPONTANEITY, INNOCENCE",
     "keywordsZh": "隨性、純真",
     "en": "The Fool is ready to fly. His young wings ache for flight, and with a single step he leaves behind the comfort of the nest to begin the journey through the Major Arcana.\n\nIs he ready? Will he fall? This is a card about beginnings. It points to the side of you that is spontaneous, excited, naive, and inexperienced. Others may doubt your abilities.\n\nBe ready to be called the \"fool.\" Be ready to fall. No matter what people say about you, this is your journey-and it's already begun.",
-    "zhText": "愚者準備展翅離巢，踏上大阿爾克那的旅程。這張牌象徵新的開始，以及你內在自發、興奮、天真而缺乏經驗的一面。即使別人懷疑你，也要準備好承擔風險，因為這是你自己的旅程。"
+    "zhText": "愚者已經準備好展翅飛翔。他那雙年輕的翅膀渴望著飛行，只需踏出一步，他便離開了巢穴的舒適與安逸，開始踏上大阿爾克那的旅程。\n\n他準備好了嗎？他會墜落嗎？這是一張關於開始的牌。它指向你內在那個隨性、興奮、天真且缺乏經驗的一面。其他人可能會懷疑你的能力。\n\n要準備好被人稱為「愚者」。也要準備好面對跌落。無論別人怎麼評論你，這都是屬於你自己的旅程，而且它早已開始。"
   },
   {
     "section": "major",
@@ -591,7 +591,7 @@ const TAROT_CARDS = [
     "keywords": "SELF-EMPOWERMENT, ACTION",
     "keywordsZh": "自我賦能、行動",
     "en": "The Magician is a card of boundless, expansive energy. Whereas many of the Major Arcana deal with stillness or aspects of the mind... this card is all about action, action, action. It's time to see yourself as the wildcat-embrace his speed, grace, and abilities. Don't be afraid to begin. You have the power of all four elements within your reach. Now is the time to use them.",
-    "zhText": "魔術師代表廣闊而充沛的能量，重點在於行動。像野貓般運用速度、優雅與能力，不要害怕開始；四大元素的力量都在你手中，現在正是運用它們的時候。"
+    "zhText": "魔術師是一張充滿無限、廣闊能量的牌。大阿爾克那中的許多牌與靜止或心智層面有關，但這張牌談的完全是行動、行動，再行動。現在是時候把自己想像成一隻野貓，擁抱牠的速度、優雅與能力。不要害怕開始。四大元素的力量都在你能掌握的範圍內，現在正是運用它們的時候。"
   },
   {
     "section": "major",
@@ -601,7 +601,7 @@ const TAROT_CARDS = [
     "keywords": "MYSTERY, PSYCHIC WISDOM",
     "keywordsZh": "神祕、直覺智慧",
     "en": "The High Priestess sits in stillness. From there she's able to access realms others pass by without noticing, the vast world of intuition, dreams, and mystery. She uses silence and non-action to harness this power. sometimes this card appears to remind you to listen more closely to the voice within. Other times it's a sign to look past the obvious, to find what's being kept secret or hidden within a given situation. Acknowledge the shadows.",
-    "zhText": "女祭司在靜止中接近他人容易忽略的領域：直覺、夢境與神祕。她透過沉默與不行動來運用力量。這張牌提醒你聆聽內在聲音，並看穿表象，尋找隱藏的真相。"
+    "zhText": "女祭司安靜地坐著。正因如此，她得以進入那些其他人經過時往往沒有察覺的領域——廣闊的直覺、夢境與神祕世界。她透過沉默與不採取行動來掌握這份力量。有時，這張牌提醒你更仔細地聆聽內在的聲音；有時，它則是在提示你不要只看表面，而要找出某個情境中被隱藏或保密的事物。承認陰影的存在。"
   },
   {
     "section": "major",
@@ -611,7 +611,7 @@ const TAROT_CARDS = [
     "keywords": "CREATION, NATURE, THE MOTHER",
     "keywordsZh": "創造、自然、母性",
     "en": "The Empress is the mother, or the goddess, of the tarot. Her energy encompasses all that is warm, fertile, creative, and sensual in the world. Her strength comes from being gentle and compassionate, and loving without binding. When this card appears, it's pointing to either a maternal relationship in your life or the side of yourself that wants to love more. The Empress also suggests it's time for you to reconnect with nature. Go outside tonight and find the moon.",
-    "zhText": "皇后是塔羅中的母親或女神，象徵溫暖、豐饒、創造與感官之美。她的力量來自溫柔、慈悲，以及不束縛對方的愛。這張牌可能指向母性關係，或提醒你更自在地去愛、重新親近自然。"
+    "zhText": "皇后是塔羅中的母親，也是女神。她的能量涵蓋了世間所有溫暖、豐饒、創造與感官之美。她的力量來自溫柔、慈悲，以及不以束縛為前提的愛。當這張牌出現時，它可能指向你生命中的母性關係，也可能代表你內在那個渴望更自在去愛的一面。皇后也提醒你，是時候重新與大自然建立連結了。今晚到戶外走走，找找月亮吧。"
   },
   {
     "section": "major",
@@ -621,7 +621,7 @@ const TAROT_CARDS = [
     "keywords": "PROTECTION, STABILITY, THE FATHER",
     "keywordsZh": "守護、穩定、父性",
     "en": "The Emperor is the father. He's the tarot's perfect counterpart to the Empress. He represents the side of you that's protective, decisive, and truly stable. He brings clarity of mind, and this in turn leads to actions or decisions. sometimes this card is literal and points to a paternal relationship in your life. At other times, it suggests reconnecting with the part of you that stands strong and tall and knows just what to do. With help from the sun, the Emperor can see for miles and miles.",
-    "zhText": "皇帝象徵保護、果斷與穩定，也代表清晰的思考如何帶來行動與決定。它可能指向你生命中的父親或父性關係，也可能提醒你重新連結內在堅定、知道如何行動的部分。"
+    "zhText": "皇帝是父親，也是皇后的完美對應。他代表你內在具有保護性、果斷而真正穩定的一面。他帶來清晰的思緒，而清晰的思考會進一步引導行動與決定。有時，這張牌指的就是你生命中的父親或父性關係；有時，它則是在提醒你，重新連結那個堅定挺立、清楚知道自己該怎麼做的自己。在太陽的幫助下，皇帝能看得非常遙遠。"
   },
   {
     "section": "major",
@@ -631,7 +631,7 @@ const TAROT_CARDS = [
     "keywords": "MENTOR, SEEKING KNOWLEDGE",
     "keywordsZh": "導師、追求知識",
     "en": "In its simplest form, the Hierophant represents a mentor or teacher. This card signifies a hunger for knowledge, whether it is in the practical or the spiritual realm.\n\nYou've come as far as you can on your own, now it's the time to deepen your practice.\n\nDon't hesitate-join a class, go to a workshop, don't be afraid of new experiences. A new ceremony or ritual may prove to be both comforting and rewarding. Open your heart, and your teacher will soon appear.",
-    "zhText": "教皇象徵導師或老師，也代表對實用或精神知識的渴望。當你已經靠自己走到某個階段，現在適合深化練習、參加課程或工作坊，並敞開心胸迎接新的儀式、經驗與指引。"
+    "zhText": "最簡單地說，教皇代表一位導師或老師。這張牌象徵對知識的渴求，不論是實用層面的知識，還是精神層面的智慧。你已經靠自己走到了目前所能到達的地方，現在正是深化練習的時候。不要猶豫：參加一堂課、去上一場工作坊，也不要害怕新的體驗。新的儀式或典禮可能帶給你安慰與收穫。敞開心胸，你的老師很快就會出現。"
   },
   {
     "section": "major",
@@ -641,7 +641,7 @@ const TAROT_CARDS = [
     "keywords": "UNION, DESIRE, JOY",
     "keywordsZh": "結合、渴望、喜悅",
     "en": "Two Canadian geese are mates for life, traveling partners within an expansive sky.\n\nThe Lovers card is a welcome sight in any reading, as it suggests a beautiful and strong relationship on the horizon. Yes, you'll experience all the thrills of desire and romance, but meanwhile you'll be building a solid foundation together. The Lovers honor and respect each other, and with that they can go anywhere. If you're already in a relationship, it's time to be grateful and nourish this care and precious gem.",
-    "zhText": "戀人象徵美好而穩固的關係即將到來。你可能經歷渴望與浪漫，也會一起建立堅實基礎。關係中的相互尊重能讓彼此走得更遠；若已有伴侶，請珍惜並用心滋養這份連結。"
+    "zhText": "兩隻加拿大雁終身相伴，在廣闊的天空中一起飛行、彼此作伴。戀人牌在任何一次解讀中出現，都是令人欣喜的景象，因為它表示一段美好而堅定的關係即將到來。你確實會經歷渴望與浪漫帶來的悸動，同時也會與對方一起建立穩固的基礎。戀人彼此尊重、彼此珍惜，因此能一同前往任何地方。如果你已經身處一段關係中，現在正是心懷感激、好好滋養這份珍貴連結的時候。"
   },
   {
     "section": "major",
@@ -651,7 +651,7 @@ const TAROT_CARDS = [
     "keywords": "STRONG WILL, TRIUMPH",
     "keywordsZh": "堅強意志、勝利",
     "en": "The Chariot is your confidence, your will, and your inner warrior. At points in your life when you felt the bliss of achievement or triumph, you were riding on his back. Build a relationship with this part of yourself. Try to\n\n\"see\" the chariot inside you. The more focused your mind, the easier it will be to sense his presence and stay mounted on his back. with a fixed gaze and sure footing, you'll be headed toward all you dream of.",
-    "zhText": "戰車代表自信、意志與內在戰士。回想曾經成就或勝利的時刻，便能感受到這股力量。讓心思更專注、目標更明確，你就更容易朝夢想前進。"
+    "zhText": "戰車代表你的自信、意志，以及內在的戰士。當你在人生中感受到成就或勝利的喜悅時，就像是騎在這位戰士的背上。試著與自己內在的這一面建立連結，想像戰車就在你心中。你的心念越專注，就越容易感受到他的存在，也越能穩穩地留在他的背上。只要目光堅定、步伐穩健，你就會朝著夢想前進。"
   },
   {
     "section": "major",
@@ -661,7 +661,7 @@ const TAROT_CARDS = [
     "keywords": "DECISIONS, KARMA",
     "keywordsZh": "決定、因果",
     "en": "with tails entwined, two cats look directly at you...waiting for you to choose between them. Which is right and which is wrong? The justice card implies a weight or heaviness surrounding a choice you have to make. Now is not the time to shun the concept of divine balance, or karma. All of your choices affect your life, and sometimes the lives of those around you, both now and in the future.",
-    "zhText": "正義牌象徵需要做出的重要選擇。此刻不宜逃避平衡與因果的概念；你的每個決定都會影響自己，有時也會影響身邊的人，無論是現在還是未來。"
+    "zhText": "兩隻貓的尾巴纏繞在一起，牠們直視著你，彷彿正等待你在牠們之間做出選擇。哪一個是對的？哪一個是錯的？正義牌暗示，你必須做出的某個選擇帶有沉重的壓力。現在不是逃避天道平衡或因果法則的時候。你的每一個選擇都會影響自己，有時也會影響周遭的人，不論是現在還是未來。"
   },
   {
     "section": "major",
@@ -671,7 +671,7 @@ const TAROT_CARDS = [
     "keywords": "SOLITUDE, MEDITATION",
     "keywordsZh": "獨處、冥想",
     "en": "The idea of being a \"hermit\" is not supported in our society, but in the realm of tarot hermits are highly celebrated and valued creatures. Through meditation, solitude, and stillness they bring wisdom to all. When this card appears, it's time to step back from the business of day-to-day life and focus on your inner realm. Become more self-aware.\n\nIf you're intrigued by meditation, start now. spend time by yourself. Your inner fire is ready to be lit...it will shine for all to see.",
-    "zhText": "隱者透過冥想、獨處與靜止帶來智慧。這張牌出現時，適合暫時退離日常忙碌，專注內在世界並更了解自己。如果你對冥想有興趣，現在就開始，讓內在之火被點亮。"
+    "zhText": "在我們的社會裡，成為一個「隱士」似乎不被鼓勵；但在塔羅的世界中，隱士卻是受到高度推崇與珍視的存在。透過冥想、獨處與靜止，他們為所有人帶來智慧。當這張牌出現時，是時候暫時離開日常生活的忙碌，把注意力放回自己的內在世界，並更加了解自己。如果你對冥想感到好奇，現在就開始吧。花些時間獨處，你內在的火焰已經準備好被點燃，並將明亮地照耀給所有人看見。"
   },
   {
     "section": "major",
@@ -681,7 +681,7 @@ const TAROT_CARDS = [
     "keywords": "DESTINY, CHANGE OF COURSE",
     "keywordsZh": "命運、轉向",
     "en": "Whether day or night, the Wheel of Fortune is always in motion. some call it fate; others, destiny. It's possible to go for months or years without feeling its presence.. but when this card appears, the eye of the wheel is fixed upon you. Don't be surprised if there's a change of course heading your way, something you'd least expect. Whatever happens to you during this time, know that it is bringing you closer to your life's purpose.",
-    "zhText": "命運之輪始終不停轉動，也象徵命運與變化。當它出現時，意料之外的轉向可能即將發生。無論發生什麼，都可能讓你更接近自己的人生目的。"
+    "zhText": "無論白天或黑夜，命運之輪都不停地轉動。有人稱之為命運，有人稱之為天意。你可能好幾個月、甚至好幾年都感覺不到它的存在；但當這張牌出現時，輪子的中心便正對著你。若接下來的人生方向突然改變，出現某件最出乎你意料的事，也不要感到驚訝。無論這段時間發生什麼，都要知道，它正帶領你更接近自己的人生目的。"
   },
   {
     "section": "major",
@@ -691,7 +691,7 @@ const TAROT_CARDS = [
     "keywords": "MASTERY OF EMOTIONS",
     "keywordsZh": "情緒掌控",
     "en": "It's common to think of this card as the roaring, devouring side of the lion. But look again-the \"strength\" this card suggests is a much deeper force that's found within. The lion represents our most patient, composed self. He's a master of focus, compassion, and self-control. When this card comes up, you're in need of harnessing this power for yourself.\n\nAll the courage you need can be found in the muscle known as the heart.",
-    "zhText": "力量牌真正指向的並非獅子的咆哮，而是內在更深層的力量。獅子代表耐心、沉著、專注、慈悲與自我控制。你需要運用這份力量；所需的勇氣，就藏在心這塊肌肉之中。"
+    "zhText": "人們常把這張牌理解為獅子咆哮、吞噬獵物的那一面。但請再仔細看看——這張牌所說的「力量」，其實是存在於內心深處、更深層的能量。獅子代表我們最有耐心、最沉著的自己。牠精通專注、慈悲與自我控制。當這張牌出現時，你需要學會運用這股力量。你所需要的一切勇氣，都能在那塊名為「心」的肌肉中找到。"
   },
   {
     "section": "major",
@@ -701,7 +701,7 @@ const TAROT_CARDS = [
     "keywords": "SACRIFICE, LETTING GO",
     "keywordsZh": "犧牲、放下",
     "en": "Many people talk about the art of \"letting go.\" But what does it really mean? How do you achieve it? The hanged man has all the answers; he's the master of non-attachment.\n\nThis card implies there's a sacrifice or a difficult or painful situation coming up in your life. Though you naturally want to resist and struggle through it, be more like the hanged man. Find stillness, open your eyes, and use this new perspective to learn something.\n\nYou're stuck here either way.",
-    "zhText": "倒吊人象徵不執著。你可能面臨犧牲、困難或痛苦的情況；與其抗拒，不如靜下來，睜開眼睛，以新的角度學習。無論如何，你都暫時身處其中，改變看法或許能帶來理解。"
+    "zhText": "許多人都會談到「放下」的藝術，但放下究竟是什麼意思？又該如何做到？倒吊人彷彿掌握了所有答案，因為他是練習不執著的大師。這張牌表示，你的人生中可能即將出現犧牲、困難或痛苦的情境。雖然你自然會想抵抗、掙扎著度過，但不妨試著像倒吊人一樣，讓自己靜下來、睜開眼睛，並運用新的觀點學習一些事。無論如何，你現在都暫時困在這個處境裡。"
   },
   {
     "section": "major",
@@ -711,7 +711,7 @@ const TAROT_CARDS = [
     "keywords": "CLOSURE, TRANSFORMATION",
     "keywordsZh": "結束、轉化",
     "en": "No one loves the sight of the Death card in a reading. We spend most of our lives denying death altogether...so when this card appears, it's easy to get frightened or think it's \"bad.\" Don't let the drama distract you from the message: something in your life needs to end.\n\nIt needs closure. This will happen voluntarily or involuntarily. Either way, you will feel a positive transformation begin after the initial forms of suffering have passed.",
-    "zhText": "死神提醒你，生命中有些事情必須結束並獲得了結。無論這是自願或非自願的，最初的痛苦過去後，正向的轉化便會開始。不要讓恐懼或戲劇化的想像遮蔽真正訊息。"
+    "zhText": "在解讀中看到死神牌，沒有人會感到開心。我們大半輩子都在否認死亡這件事，因此當這張牌出現時，很容易感到害怕，或認為它代表「不好」的事情。不要讓這種戲劇性的恐懼模糊了牌的訊息：你生命中的某件事需要結束，而且需要有個了結。這個結束可能是你自願選擇的，也可能是非自願發生的。無論如何，當最初的痛苦過去之後，你會開始感受到正向的轉變。"
   },
   {
     "section": "major",
@@ -721,7 +721,7 @@ const TAROT_CARDS = [
     "keywords": "HEALING, RENEWAL",
     "keywordsZh": "療癒、更新",
     "en": "The great blue heron remains calm and peaceful as she blends the opposing elements of fire and water. The Temperance card asks you to be a moderator much like the heron. Focus on cooperation and compromise.\n\nIf you've been excessive in one aspect of your life, practice self-restraint and moderation now. You'll find a new sense of healing and balance from bringing a little harmony back into your life.",
-    "zhText": "節制牌以蒼鷺調和火與水的相反元素為象徵，提醒你成為協調者。專注於合作、妥協與適度；若生活某一方面過度了，練習自我節制，便能重新找回療癒與平衡。"
+    "zhText": "一隻大藍鷺在平靜安詳的狀態下，調和著火與水這兩種彼此對立的元素。節制牌邀請你像這隻藍鷺一樣，成為調和各方的協調者。把注意力放在合作與妥協上。如果你生活中的某個面向已經過度失衡，現在就練習自我約束與適度。當你為生活重新帶回一點和諧，就會找到新的療癒感與平衡。"
   },
   {
     "section": "major",
@@ -731,7 +731,7 @@ const TAROT_CARDS = [
     "keywords": "ADDICTION, NEGATIVITY",
     "keywordsZh": "依賴、負面性",
     "en": "Though it may feel frightening when the Devil appears in your reading, this card carries an urgent message and must be interpreted with total honesty. The darkness of the Devil card takes the form of addiction, negativity, or materialism. It can indicate an ugly relationship with a person or substance.\n\nIdentify this dependency and how it's holding you back. The devil's hooves are strong and relentless-their grip will not loosen unless a conscious change is made. Free yourself.",
-    "zhText": "惡魔可能象徵成癮、負面情緒、物質主義，或不健康的人際關係。誠實辨認這份依賴如何阻礙你。束縛不會自行鬆開，唯有有意識地改變，才能讓自己獲得自由。"
+    "zhText": "當惡魔牌出現在解讀中時，你或許會感到害怕，但這張牌帶來一個迫切的訊息，必須以完全誠實的態度來理解。惡魔牌的黑暗可能表現為成癮、負面情緒或物質主義，也可能指向一段不健康的人際關係，或對某種物質產生不良依賴。辨認這份依賴，以及它如何阻礙你前進。惡魔的蹄子強而有力、緊緊抓住不放；除非你有意識地做出改變，否則束縛不會鬆開。讓自己獲得自由。"
   },
   {
     "section": "major",
@@ -741,7 +741,7 @@ const TAROT_CARDS = [
     "keywords": "UNEXPECTED UPHEAVAL",
     "keywordsZh": "突如其來的動盪",
     "en": "when the Tower card appears, it's time to brace yourself for a change. The well-rooted tree that's been growing strong for decades is crashing down around you. Your world may feel as though it's literally falling apart -and you didn't see it coming. Even though this phase is painful and confusing, it will be over soon. You'll look back and feel grateful things changed course. You might even see it as a personal \"breakthrough\" in the end.",
-    "zhText": "高塔象徵突如其來的改變。原本屹立多年的樹轟然倒下，你的世界可能像是瞬間崩塌。這段時間雖然痛苦又混亂，卻終究會過去；回頭看時，你甚至可能感謝這次轉向，並視之為突破。"
+    "zhText": "當高塔牌出現時，是時候做好準備，迎接改變。那棵根深蒂固、茁壯生長了數十年的大樹，正在你周圍轟然倒下。你的世界可能真的像是瞬間崩塌，而你事先毫無察覺。即使這段時期令人痛苦又困惑，它終究會過去。將來回頭看時，你可能會感謝事情改變了方向，甚至會把這次經歷視為個人的一次「突破」。"
   },
   {
     "section": "major",
@@ -751,7 +751,7 @@ const TAROT_CARDS = [
     "keywords": "HOPE, PEACE OF MIND",
     "keywordsZh": "希望、心靈平靜",
     "en": "standing outside on a dark night, you gaze up at the stars and sense glimmers of wonder and hope. Even though you can't find concrete answers to life's many questions up there in the sky, you can't help but feel comforted and renewed. such is the energy of the star card. It is not about actions or situations.\n\nIt's simply about connecting to the part of you that is hopeful and serene. This force will bring light back into your life and infuse you with positivity. A lovely card.",
-    "zhText": "在漆黑的夜晚站在戶外，抬頭仰望星星，你會感受到閃爍的奇妙感與希望。即使無法從天空中找到人生諸多疑問的具體答案，你仍不禁感到安慰，並重新獲得力量。這就是星星牌的能量。它談的不是行動或情境，而是與內在那個充滿希望、平靜安詳的自己連結。這股力量會為你的生命重新帶來光亮，注入正向能量。這是一張很美好的牌。"
+    "zhText": "在漆黑的夜晚站在戶外，你抬頭仰望星星，感受到一絲奇妙與希望的閃光。即使你無法從天空中找到人生諸多疑問的具體答案，卻仍不禁感到安慰，並重新獲得力量。這就是星星牌所帶來的能量。它談的並不是行動或情境。\n\n它單純是要你與內在那個充滿希望、平靜安詳的自己連結。這股力量會為你的生命重新帶來光亮，並注入正向能量。這是一張美好的牌。"
   },
   {
     "section": "major",
@@ -761,7 +761,7 @@ const TAROT_CARDS = [
     "keywords": "VIVID DREAMS AND FEARS",
     "keywordsZh": "鮮明的夢境與恐懼",
     "en": "In many ways the Moon card encompasses the idea of The Wild Unknown. It is the shadow realm, the place where dreams, fears, and mysteries are born. Much darkness can linger here, and if you aren't careful, this can lead to periods of anxiety and self-doubt, almost as though you've lost your way in a house of mirrors. Many great artists have roamed this inner landscape. It's where imagination and creativity drift freely upon the midnight air.",
-    "zhText": "從許多方面來說，月亮牌涵蓋了「The Wild Unknown」所代表的意象。它是陰影的領域，是夢境、恐懼與謎團誕生的地方。這裡可能潛藏著許多黑暗；若不夠留意，便可能陷入焦慮與自我懷疑，彷彿迷失在一座鏡屋之中。許多偉大的藝術家都曾漫遊這片內在風景。想像力與創造力能在此自由飄蕩，如同午夜的空氣。"
+    "zhText": "從許多方面來說，月亮牌涵蓋了「The Wild Unknown」所代表的意象。它是陰影的領域，是夢境、恐懼與謎團誕生的地方。這裡可能潛藏著許多黑暗；若不夠留意，便可能陷入焦慮與自我懷疑的時期，彷彿在一座鏡屋中迷失了方向。許多偉大的藝術家都曾漫遊這片內在風景。\n\n想像力與創造力就在這裡，如同午夜的空氣般自由飄蕩。"
   },
   {
     "section": "major",
@@ -771,7 +771,7 @@ const TAROT_CARDS = [
     "keywords": "VITALITY, ENLIGHTENMENT",
     "keywordsZh": "活力、啟迪",
     "en": "Imagine for a moment that you're soaking in the warm rays of the sun. It feels nourishing and healing; all your aches and pains just fade away. The Sun card brings this amazing energy into your life. Vitality and health abound, while you feel assurance and clarity in all you do. Spend some extra time outside today, be grateful for the radiance of the sun and the life force it gives all creatures.",
-    "zhText": "試著想像自己正沐浴在溫暖的陽光之中。陽光滋養著你、療癒著你，所有痠痛都逐漸消散。太陽牌將這股美好的能量帶進你的生命，帶來充沛的活力與健康，也讓你在所做的每件事上都更有信心、更清晰明確。今天不妨多花一點時間待在戶外，感謝陽光的光輝，以及它賦予所有生物的生命力。"
+    "zhText": "試著想像片刻：你正沐浴在溫暖的陽光之中。陽光令人感到滋養與療癒，所有痠痛都逐漸消散。太陽牌將這股美好的能量帶進你的生命，帶來充沛的活力與健康，也讓你在所做的一切事情上都更有信心、更清晰明確。今天不妨多花一點時間待在戶外，感謝陽光的光輝，以及它賦予所有生物的生命力。"
   },
   {
     "section": "major",
@@ -781,9 +781,9 @@ const TAROT_CARDS = [
     "keywords": "FORGIVENESS",
     "keywordsZh": "寬恕",
     "en": "The word \"judgement\" conjures up fear and guilt in many people. This card, however, concerns itself with another aspect of this word—seeking the truth. No more blaming yourself or others, no more excuses. Now is the time for forgiveness and personal freedom. This card asks you to rise up and let pettiness and fear fall below you. Expand your wings and be reborn. What a relief it will be.",
-    "zhText": "「審判」這個詞常讓許多人聯想到恐懼與罪惡感。然而，這張牌關注的是這個詞的另一個面向——尋求真相。不要再責怪自己或他人，也不必再找藉口。現在正是寬恕並獲得個人自由的時刻。這張牌邀請你振作而起，讓狹隘與恐懼留在身後。展開雙翼，重新獲得新生。那將會是多麼令人如釋重負。"
-  }
-  ,{
+    "zhText": "「審判」這個詞常讓許多人聯想到恐懼與罪惡感。然而，這張牌關注的是這個詞的另一個面向——尋求真相。不再責怪自己或他人，也不再找藉口。現在正是寬恕並獲得個人自由的時刻。這張牌邀請你振作而起，讓狹隘與恐懼落在身後。展開雙翼，重新獲得新生。那將會是多麼令人如釋重負。"
+  },
+  {
     "section": "major",
     "num": "21",
     "name": "The World",
@@ -791,7 +791,6 @@ const TAROT_CARDS = [
     "keywords": "WHOLENESS, COMPLETION",
     "keywordsZh": "完整、圓滿",
     "en": "The World is the final card in the journey of the Major Arcana. It signifies completion, harmony, and contentment. It's rare to experience this energy, as we are usually consumed by wanting, needing, and achieving. So when this card appears, contemplate for a moment the idea of \"being whole.\" Focus on the image on the card...close your eyes and envision this radiating energy inside you. What does it feel like? Where is it located? What blocks you from feeling a sense of \"wholeness\" each and every day of your life?",
-    "zhText": "世界是大阿爾克那旅程中的最後一張牌，象徵完成、和諧與滿足。要體驗這種能量並不容易，因為我們通常總是被欲望、需求與成就所牽引。因此，當這張牌出現時，請花一點時間思考「完整」的意義。凝視牌面上的圖像……閉上眼睛，想像這股散發的能量就在你體內。它感覺如何？位於何處？是什麼阻礙你在生命中的每一天都感受到「完整」？"
+    "zhText": "世界是大阿爾克那旅程中的最後一張牌，象徵完成、和諧與滿足。這種能量並不常見，因為我們通常總是被渴望、需求與追求成就所占據。因此，當這張牌出現時，請花一點時間思考「完整」的意義。專注凝視牌面上的圖像……閉上眼睛，想像這股散發的能量就在你體內。它感覺起來如何？它位於哪裡？究竟是什麼阻礙你在生命中的每一天，都感受到「完整」？"
   }
 ];
-const WANDS_CARDS = TAROT_CARDS.filter(c=>c.section==='wands');
