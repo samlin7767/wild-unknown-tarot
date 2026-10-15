@@ -84,6 +84,34 @@ html, body { max-width:100%; overflow-x:hidden; }
 .detail p, .intro-panel p, .detail h2, .detail .translated { overflow-wrap:anywhere; word-break:normal; }
 .detail-grid img, .art img, .large-art img { max-width:100%; }
 
+
+.home-panel{display:none}
+.home-panel.active{display:block}
+.home-intro{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:clamp(20px,3vw,32px);margin-bottom:18px}
+.home-intro h2{font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(1.7rem,3vw,2.4rem);font-weight:400;margin:0 0 8px}
+.home-intro p{color:var(--muted);margin:0;max-width:720px}
+.home-categories{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0 26px}
+.category-tile{border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:20px;text-align:left;cursor:pointer;color:var(--ink);transition:transform .2s,border-color .2s}
+.category-tile:hover{transform:translateY(-2px);border-color:#a4a58d}
+.category-tile strong{display:block;font-family:Georgia,"Noto Serif TC",serif;font-size:1.1rem;font-weight:500}
+.category-tile span{display:block;color:var(--muted);font-size:.85rem;margin-top:4px}
+.draw-panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,28px);margin:18px 0}
+.draw-panel h3{font-family:Georgia,"Noto Serif TC",serif;font-weight:400;font-size:1.35rem;margin:0 0 5px}
+.draw-panel p{margin:0 0 14px;color:var(--muted);font-size:.9rem}
+.draw-controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.draw-controls label{font-size:.9rem;color:var(--muted)}
+.draw-controls select,.draw-controls button{font:inherit;border:1px solid var(--line);border-radius:8px;padding:9px 13px;background:var(--bg);color:var(--ink)}
+.draw-controls button{background:var(--accent);border-color:var(--accent);color:white;cursor:pointer}
+.draw-results{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:18px}
+.draw-result{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:12px;cursor:pointer;text-align:center;min-width:0;color:var(--ink)}
+.draw-result .art{width:min(100%,120px);margin:0 auto 10px;flex:none}
+.draw-result strong{display:block;font-size:.9rem;font-weight:500;overflow-wrap:anywhere}
+.draw-result span{display:block;color:var(--muted);font-size:.8rem;margin-top:3px}
+.draw-empty{margin-top:14px;color:var(--muted);font-size:.88rem}
+@media(max-width:900px){.home-categories{grid-template-columns:repeat(2,minmax(0,1fr))}.draw-results{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.home-categories{grid-template-columns:1fr 1fr;gap:8px}.category-tile{padding:14px}.category-tile strong{font-size:.95rem}.category-tile span{font-size:.76rem}.draw-results{grid-template-columns:repeat(2,minmax(0,1fr))}.draw-result{padding:9px}}
+
+.home-nav{width:100%;text-align:left;border:0;background:transparent;padding:11px 13px;border-radius:8px;font:inherit;font-size:.9rem;color:#625e55;cursor:pointer}.home-nav:hover{background:#eeeadf}.home-nav.active{background:var(--accent-soft);color:#353a2a;font-weight:600}
 </style>
 </head>
 <body>
@@ -94,6 +122,7 @@ html, body { max-width:100%; overflow-x:hidden; }
 <div class="layout">
   <aside><div class="aside-inner">
     <p class="nav-label">Library / 牌組</p>
+    <button data-home class="active home-nav">首頁 / Home</button>
     <nav class="nav" aria-label="塔羅牌組">
       <button data-section="major">The Major Arcana</button>
       <button data-section="minor">The Minor Arcana</button>
@@ -104,7 +133,36 @@ html, body { max-width:100%; overflow-x:hidden; }
     </nav>
   </div></aside>
   <main>
-    <div class="page-head">
+    <section id="homePanel" class="home-panel active">
+      <div class="home-intro">
+        <div class="eyebrow">Personal Tarot Reference</div>
+        <h2>探索你的塔羅牌義</h2>
+        <p>選擇牌組瀏覽 78 張牌的英文原文與繁體中文翻譯，或抽取 1～5 張牌，開啟你的個人閱讀。</p>
+      </div>
+      <div class="home-categories" aria-label="塔羅牌組分類">
+        <button class="category-tile" data-home-section="major"><strong>The Major Arcana</strong><span>大阿爾克那 · 22 張</span></button>
+        <button class="category-tile" data-home-section="minor"><strong>The Minor Arcana</strong><span>小阿爾克那 · 56 張</span></button>
+        <button class="category-tile" data-home-section="wands"><strong>Wands｜權杖</strong><span>靈感、創造力、目標與夢想</span></button>
+        <button class="category-tile" data-home-section="cups"><strong>Cups｜聖杯</strong><span>情感、關係與人際連結</span></button>
+        <button class="category-tile" data-home-section="swords"><strong>Swords｜寶劍</strong><span>思考、變化與衝突</span></button>
+        <button class="category-tile" data-home-section="pentacles"><strong>Pentacles｜星幣</strong><span>物質生活、家庭、金錢與職涯</span></button>
+      </div>
+      <div class="draw-panel">
+        <h3>抽一張牌 / Draw Cards</h3>
+        <p>從完整牌組中隨機抽取 1～5 張不重複的牌。點選抽出的牌，即可閱讀英文原文與繁體中文翻譯。</p>
+        <div class="draw-controls">
+          <label for="drawCount">抽牌張數</label>
+          <select id="drawCount" aria-label="選擇抽牌張數">
+            <option value="1">1 張</option><option value="2">2 張</option><option value="3">3 張</option><option value="4">4 張</option><option value="5">5 張</option>
+          </select>
+          <button type="button" id="drawButton">開始抽牌</button>
+          <button type="button" id="redrawButton" style="display:none;background:transparent;color:var(--ink)">重新抽牌</button>
+        </div>
+        <div id="drawResults" class="draw-results" aria-live="polite"></div>
+        <div id="drawEmpty" class="draw-empty">選擇張數後，按「開始抽牌」。</div>
+      </div>
+    </section>
+    <div class="page-head" id="sectionHeader">
       <div><div class="eyebrow">Minor Arcana · Suit of Fire</div>
       <input class="search" id="search" type="search" placeholder="搜尋牌名或關鍵字…" aria-label="搜尋牌名或關鍵字"><h2 id="sectionTitle">Wands｜權杖</h2><p id="sectionDesc">靈感、創造力、目標與夢想。選擇一張牌，閱讀英文原文與繁體中文翻譯。</p></div>
     </div>
@@ -119,7 +177,8 @@ html, body { max-width:100%; overflow-x:hidden; }
 <script>
 const grid=document.getElementById('cards'),detail=document.getElementById('detail'),search=document.getElementById('search');
 const title=document.getElementById('sectionTitle'),desc=document.getElementById('sectionDesc'),introContent=document.getElementById('introContent');
-let current='wands',query='';
+let current='home',query='';
+const homePanel=document.getElementById('homePanel'),sectionHeader=document.getElementById('sectionHeader'),drawCount=document.getElementById('drawCount'),drawButton=document.getElementById('drawButton'),redrawButton=document.getElementById('redrawButton'),drawResults=document.getElementById('drawResults'),drawEmpty=document.getElementById('drawEmpty');
 const sectionInfo={
 major:{title:'The Major Arcana｜大阿爾卡那',desc:'塔羅的王牌：探索象徵性的內在旅程。',content:`<p>Known as the tarot's trump cards, the twenty-two Major Arcana cards signify a complete journey of the psyche. They are the archetypes we carry within ourselves, the characters or themes that hold us back and set us free. These cards usually indicate deeply rooted issues within our lives. The journey of the Major Arcana begins with the Fool (numbered 0) and ends with the World (numbered XXI). Take your time getting to know these twenty-two cards—they are extremely powerful and should not be taken lightly in your readings.</p><p>大阿爾克那也被稱為塔羅的王牌，二十二張牌象徵心靈完整的旅程。它們代表我們內在所承載的原型，以及那些阻礙我們、也能使我們獲得自由的人物或主題。這些牌通常指向生命中根深蒂固的議題。大阿爾克那的旅程從愚者（編號 0）開始，以世界（編號 XXI）結束。請花時間認識這二十二張牌；它們具有深刻的力量，在解讀時不應輕忽。</p>`},
 minor:{title:'The Minor Arcana｜小阿爾卡那',desc:'四個牌組為牌義增添細節與情境。',content:`<p>Together the suits of wands, cups, swords, and Pentacles make up what's called the Minor Arcana. There are fourteen cards within each suit. Cards numbered one through ten usually point to a situation or quality you're experiencing. The eleventh through fourteenth cards (known as the court cards) often represent an actual person in your life. Minor Arcana cards help bring depth and complexity to a reading, giving context to the more dominant Major Arcana cards. You'll find more about the characteristics that define each of the four suits in the following pages.</p><p>權杖、聖杯、寶劍與星幣四個牌組合稱為小阿爾克那。每個牌組有十四張牌。編號一至十的牌通常指向你正在經歷的情況或特質；第十一至第十四張（宮廷牌）則經常代表你生活中的某個真實人物。小阿爾克那為解讀增添深度與複雜性，也為更具主導性的大小阿爾克那牌提供情境。以下將進一步介紹四個牌組各自的特徵。</p><h3>The Court Cards｜宮廷牌</h3><p>The cards numbered eleven through fourteen in each of the Minor Arcana suits are called the court cards. In many decks they're named the Page, Knight, Queen, and king. This deck uses a variation tied to a family system: Daughter, Son, Mother, and Father. This offers an immediate connection to the cards, allowing you to link each character to someone you know. Unlike the other tarot cards, the court cards typically represent people, not situations. They can be hard to interpret at first, so be patient. Here is a simple and generalized guide to get started:</p><p>小阿爾克那每個牌組中，編號第十一至第十四張的牌稱為宮廷牌。許多牌組將它們稱為侍者、騎士、皇后與國王；這副牌則採用與家庭系統相關的稱呼：女兒、兒子、母親與父親。這種方式能讓你迅速與牌面建立連結，將每個角色聯想到生活中認識的人。與其他塔羅牌不同，宮廷牌通常代表人物，而非情境。初學時可能不容易解讀，請耐心熟悉。以下是簡單、概括性的入門指引：</p><h3>The Four Families｜四個家族</h3><p><strong>The Wands Family｜權杖家族</strong><br>A vibrant and well-loved family. They make dangerous enemies. Usually lighter skin and hair.<br>充滿活力、深受喜愛的家族；若成為敵人，可能相當難以應對。通常有較淺的膚色與髮色。</p><p><strong>The Cups Family｜聖杯家族</strong><br>Artistic, open-minded, quiet. A family of dreamers. Lighter skin and hair.<br>富有藝術氣息、思想開放且安靜，是充滿夢想的一家人。通常有較淺的膚色與髮色。</p><p><strong>The Swords Family｜寶劍家族</strong><br>Well educated and highly receptive. Not necessarily a "warm" family. Usually dark skin and hair.<br>受過良好教育、感受力敏銳；不一定是熱情外放的家族。通常有較深的膚色與髮色。</p><p><strong>The Pentacles Family｜星幣家族</strong><br>Very grounded, deeply connected to nature and the home. May have darker hair and eyes.<br>務實而踏實，與自然及家庭有深刻連結。可能有較深的髮色與眼睛顏色。</p>`},
@@ -128,7 +187,23 @@ cups:{title:'Cups｜聖杯',desc:'情感、關係與人際連結。',content:`<p
 swords:{title:'Swords｜寶劍',desc:'行動、思考、變化與衝突。',content:`<p>The Swords are the suit of action and intellect, ruled by the element of air. These dynamic cards address change, conflict, and power. They point to constructive and destructive tendencies within us all. A reading dominated by Swords indicates a situation of turmoil and distress.</p><p>寶劍是行動與理智的牌組，由風元素主宰。這些充滿動態的牌涉及變化、衝突與力量，也映照出我們每個人身上具有建設性與破壞性的傾向。若一次解讀以寶劍牌為主，通常表示當下處於混亂或不安的情境。</p>`},
 pentacles:{title:'Pentacles｜星幣',desc:'物質生活、家庭、金錢與職涯。',content:`<p>The suit of worldly possessions, the Pentacles often speak to issues involving our home, money, or career. They reflect upon our generosity and greed. Pentacles are ruled by the earth element. When many appear in a reading, it means the focus is on material things—property, income, or the home.</p><p>星幣是與世俗財物相關的牌組，經常談及家庭、金錢或職涯等議題，也反映我們的慷慨與貪求。星幣牌組由土元素主宰。若一次解讀中出現許多星幣牌，表示焦點集中在物質層面，例如財產、收入或居住環境。</p>`}
 };
-document.querySelectorAll('[data-section]').forEach(btn=>btn.addEventListener('click',()=>{current=btn.dataset.section;query='';search.value='';document.querySelectorAll('[data-section]').forEach(b=>b.classList.toggle('active',b===btn));render()}));
+function setSection(section){
+ current=section;query='';search.value='';
+ homePanel.classList.remove('active');sectionHeader.style.display='flex';introContent.style.display='block';grid.style.display='grid';
+ document.querySelectorAll('[data-section]').forEach(b=>b.classList.toggle('active',b.dataset.section===section));
+ document.querySelector('[data-home]').classList.remove('active');
+ render();
+}
+document.querySelectorAll('[data-section]').forEach(btn=>btn.addEventListener('click',()=>setSection(btn.dataset.section)));
+document.querySelectorAll('[data-home-section]').forEach(btn=>btn.addEventListener('click',()=>setSection(btn.dataset.homeSection)));
+document.querySelector('[data-home]').addEventListener('click',showHome);
+function showHome(){
+ current='home';query='';search.value='';detail.classList.remove('open');detail.innerHTML='';
+ homePanel.classList.add('active');sectionHeader.style.display='none';introContent.style.display='none';grid.style.display='none';
+ document.querySelectorAll('[data-section]').forEach(b=>b.classList.remove('active'));
+ document.querySelector('[data-home]').classList.add('active');
+}
+
 function render(){
  const info=sectionInfo[current];title.textContent=info.title;desc.textContent=info.desc;introContent.innerHTML=info.content;detail.classList.remove('open');detail.innerHTML='';
  const sectionKeys=current==='minor'?['wands','cups','swords','pentacles']:[current];
@@ -140,13 +215,39 @@ function render(){
 function openCard(c){
  detail.innerHTML=`<button class="back" id="back">← 返回牌組</button><div class="detail-grid"><div class="large-art ${c.image ? 'has-image' : ''}" aria-label="牌面圖片">${c.image ? `<img src="${c.image}" alt="${c.name} tarot card">` : ''}</div><div><div class="eyebrow">${c.num} · ${({wands:"WANDS",cups:"CUPS",swords:"SWORDS",pentacles:"PENTACLES",major:"MAJOR ARCANA"})[c.section]||"TAROT"}</div><h2>${c.name}</h2><div class="translated">${c.zh}</div><div class="keywords">${c.keywords}<br>${c.keywordsZh}</div><div class="reading-block" data-reading="en" style="display:block"><div class="text-label">Original English</div><p>${c.en}</p></div><div class="reading-block active" data-reading="zh" style="display:block"><div class="text-label">繁體中文翻譯（依原文逐句翻譯）</div><p>${c.zhText}</p></div></div></div>`;
  detail.classList.add('open');
- document.getElementById('back').addEventListener('click',()=>{detail.classList.remove('open');detail.innerHTML='';});
+ document.getElementById('back').addEventListener('click',()=>{
+   detail.classList.remove('open');detail.innerHTML='';
+   if(current==='home'){showHome();} 
+});
  // Both languages are shown in a fixed order: English first, then Traditional Chinese.
  detail.querySelectorAll('[data-reading]').forEach(block=>{block.style.display='block';});
  detail.scrollIntoView({behavior:'smooth',block:'start'});
 }
-search.addEventListener('input',()=>{query=search.value.trim();render()});
-render();
+
+function performDraw(){
+ const count=Math.max(1,Math.min(5,Number(drawCount.value)||1));
+ const pool=[...TAROT_CARDS];
+ for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]];}
+ const chosen=pool.slice(0,count);
+ drawResults.innerHTML='';
+ chosen.forEach(c=>{
+   const el=document.createElement('button');el.type='button';el.className='draw-result';
+   el.innerHTML=`<div class="art ${c.image ? 'has-image' : ''}">${c.image ? `<img src="${c.image}" alt="${c.name} tarot card">` : ''}</div><strong>${c.name}</strong><span>${c.zh}</span>`;
+   el.addEventListener('click',()=>{
+     homePanel.classList.remove('active');sectionHeader.style.display='none';introContent.style.display='none';grid.style.display='none';
+     detail.classList.add('open');openCard(c);
+     document.querySelectorAll('[data-section]').forEach(b=>b.classList.remove('active'));
+     document.querySelector('[data-home]').classList.add('active');
+   });
+   drawResults.appendChild(el);
+ });
+ drawEmpty.style.display='none';redrawButton.style.display='inline-block';
+}
+drawButton.addEventListener('click',performDraw);
+redrawButton.addEventListener('click',performDraw);
+
+search.addEventListener('input',()=>{query=search.value.trim();if(current!=='home')render()});
+showHome();
 </script>
 </body>
 </html>
